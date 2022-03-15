@@ -1,0 +1,14 @@
+# Otomasyon ortamı otomatik olarak ayarlanır.
+* "bbmSifreGirisTxt" elementi görünürse, "bbmSifreGirisTxt" elementine "bbm2021" değerini yaz ve entere bas
+
+# -STAGE- search kullanımı
+* waitPageLoadCompleteJs
+* "2" saniye bekle
+* "https://bbm.ninewest.com.tr/search?q=bot" adresine git
+* waitPageLoadCompleteJs
+
+# -PREPROD- search kullanımı
+* waitPageLoadCompleteJs
+* "2" saniye bekle
+* "https://preprod.ninewest.com.tr/search?q=bot" adresine git
+* waitPageLoadCompleteJs

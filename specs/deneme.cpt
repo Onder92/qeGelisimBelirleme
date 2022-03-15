@@ -1,0 +1,83 @@
+Created by bugra.balci on 19.01.2022
+
+This is a concept file with following syntax for each concept.
+
+# Ürün Listeleme Sayfası Filtre Kontrolü
+* "anasayfaKadinKategoriBtn" elementine tıkla
+* waitPageLoadCompleteJs
+* "filtreKategoriTxt" elementine tıkla
+* waitPageLoadCompleteJs
+* "filtreAltKategoriTxt" elementinin görünür olması kontrol edilir
+* "filtreCinsiyetChk" elementine js ile tıkla
+* waitPageLoadCompleteJs
+* "filtreBedenChk" elementine js ile tıkla
+* waitPageLoadCompleteJs
+* "filtreRenkChk" elementine js ile tıkla
+* waitPageLoadCompleteJs
+* "3" saniye bekle
+* "filtreFiyatAralığıEnAzBox" elementine "100" değerini yaz
+* "3" saniye bekle
+* "filtreFiyatAralığıEnCokBox" elementine "200" değerini yaz
+* "3" saniye bekle
+* "filtreFiyatAralığıBtn" elementine tıkla
+* waitPageLoadCompleteJs
+* "3" saniye bekle
+* "filtreİndirimAralığıEnAzBox" elementine "20" değerini yaz
+* "3" saniye bekle
+* "filtreİndirimAralığıEnCokBox" elementine "40" değerini yaz
+* "3" saniye bekle
+* "filtreİndirimAralığıBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# Ürün Listeleme Sayfasından Gidilen Detay Sayfası
+* "anasayfaErkekKategoriBtn" elementine tıkla
+* waitPageLoadCompleteJs
+* "ürünListelemeİlkÜrün" elementi görünürse, "ürünListelemeİlkÜrün" elementine tıkla
+* waitPageLoadCompleteJs
+* "detayBedenCombobox" listesinden random olarak seçim yapılır
+* "detaySatınAlBtn" elementine tıkla
+* "2" saniye bekle
+
+# Searchbox Kontrolü
+* "headerSearchBox" elementine tıkla
+* waitPageLoadCompleteJs
+* "popUpSearchBox" elementine tıkla
+* "popUpSearchBox" elementine "siyah erkek şort" değerini yaz ve entere bas
+* waitPageLoadCompleteJs
+* "ürünListelemeİlkÜrün" elementi görünürse, "ürünListelemeİlkÜrün" elementine tıkla
+* waitPageLoadCompleteJs
+* "detayBedenCombobox" listesinden random olarak seçim yapılır
+* "2" saniye bekle
+* "detaySatınAlBtn" elementine tıkla
+* "2" saniye bekle
+
+# Footer kontrolü
+* waitPageLoadCompleteJs
+* "footerKurumsalTxt" scroll element
+* "footerKurumsalTxt" elementine js ile tıkla
+* waitPageLoadCompleteJs
+* "kurumsalKurumsalTxt" elementinin görünür olması kontrol edilir
+* Navigate to back
+* waitPageLoadCompleteJs
+* "footerGizlilikTxt" elementine tıkla
+* waitPageLoadCompleteJs
+* "gizlilikHeaderTxt" elementinin görünür olması kontrol edilir
+* Navigate to back
+* waitPageLoadCompleteJs
+* "footerMagazalarTxt" elementine tıkla
+* waitPageLoadCompleteJs
+* "magazalarMagazaTxt" elementinin görünür olması kontrol edilir
+* Navigate to back
+* waitPageLoadCompleteJs
+* "footerKisiselVerilerTxt" elementine tıkla
+* waitPageLoadCompleteJs
+* "kisiselKisielTxt" elementinin görünür olması kontrol edilir
+* Navigate to back
+* waitPageLoadCompleteJs
+* "footerİletisimTxt" elementine tıkla
+* waitPageLoadCompleteJs
+* Navigate to back
+* waitPageLoadCompleteJs
+* "2" saniye bekle
+
+

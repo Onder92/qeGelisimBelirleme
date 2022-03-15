@@ -1,0 +1,67 @@
+[
+  {
+    "key": "miniSepetBtn",
+    "value": ".fas.fa-shopping-bag",
+    "type": "css"
+  },
+  {
+    "key": "miniSepetSepeteGitBtn",
+    "value": "(//a[text()='SEPETE GİT'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "miniSepetSilBtn",
+    "value": ".remove-product-from-mini-cart",
+    "type": "css"
+  },
+  {
+    "key": "urunAdetBox",
+    "value": "div[class='cart__select ']",
+    "type": "css"
+  },
+  {
+    "key": "randomUrunAdetSecimDrp",
+    "value": "div[class='cart__select ']>select>option",
+    "type": "css"
+  },
+  {
+    "key": "urunAdediniBirYapmaDrp",
+    "value": "div[class='cart__select ']>select>option[value='1']",
+    "type": "css"
+  },
+  {
+    "key": "sepetimUrunuSilCarpiBtn",
+    "value": "button[class='cart__action-remove']",
+    "type": "css"
+  },
+  {
+    "key": "sepetimIlkUrunuSilCarpiBtn",
+    "value": "(//button[@class='cart__action-remove'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepettekiEkstraUrunBtn",
+    "value": "(//button[@class='cart__action-remove'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetimUrunSilPopupSilBtn",
+    "value": "button[data-test='click-to-cart-page-delete-product-from-cart'] ",
+    "type": "css"
+  },
+  {
+    "key": "sepetimAlisveriseDevamEtBtn",
+    "value": ".text-gray.btn.btn-sm.pl-0.pr-0",
+    "type": "css"
+  },
+  {
+    "key": "sepetiOnaylaBtn",
+    "value": ".flo-theme",
+    "type": "css"
+  },
+  {
+  "key": "sepeteEklePopupKapatBtn",
+  "value": ".fancybox-button.fancybox-close-small>svg",
+  "type": "css"
+}
+]

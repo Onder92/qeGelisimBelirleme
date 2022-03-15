@@ -1,0 +1,6 @@
+.gauge
+.idea
+logs
+reports
+target
+src/test/resources/Configuration.properties

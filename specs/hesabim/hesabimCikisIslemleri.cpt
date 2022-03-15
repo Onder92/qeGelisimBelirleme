@@ -1,0 +1,13 @@
+Created by Elyase on 15.01.2022
+
+This is a concept file with following syntax for each concept.
+
+# Açılan sol menüden Çıkış yapılır
+* "solMenuCikisBtn" elementinin görünür olması kontrol edilir
+* "solMenuCikisBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# Üst menüden çıkış yapılır
+* "ustMenuCikisBtn" elementinin görünür olması kontrol edilir
+* "ustMenuCikisBtn" elementine tıkla
+* waitPageLoadCompleteJs

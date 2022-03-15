@@ -1,0 +1,202 @@
+[
+  {
+    "key": "girisYapBtn",
+    "value": "//a[text()='GİRİŞ YAP']",
+    "type": "xpath"
+  },
+  {
+    "key": "girisYapEpostaAdresiTxt",
+    "value": "username",
+    "type": "name"
+  },
+  {
+    "key": "girisYapSifreTxt",
+    "value": "password",
+    "type": "name"
+  },
+  {
+    "key": "girisYapOnayBtn",
+    "value": "//button[text()='GİRİŞ YAP']",
+    "type": "xpath"
+  },
+  {
+    "key": "uyeOlBtn",
+    "value": "//a[text()='ÜYE OL']",
+    "type": "xpath"
+  },
+  {
+    "key": "uyeOlAdinizTxt",
+    "value": "first_name",
+    "type": "name"
+  },
+  {
+    "key": "uyeOlSoyadinizTxt",
+    "value": "last_name",
+    "type": "name"
+  },
+  {
+    "key": "uyeOlEpostaAdresinizTxt",
+    "value": "email",
+    "type": "name"
+  },
+  {
+    "key": "uyeOlSifrenizTxt",
+    "value": "password",
+    "type": "name"
+  },
+  {
+    "key": "uyeOlTelefonNumaranizTxt",
+    "value": "phone",
+    "type": "name"
+  },
+  {
+    "key": "uyeOlCinsiyetKadinChk",
+    "value": ".flo-radio.mr-5>i",
+    "type": "css"
+  },
+  {
+    "key": "uyeOlRandomCinsiyetChk",
+    "value": ".col-sm-8>label>i",
+    "type": "css"
+  },
+  {
+    "key": "uyeOlCinsiyetErkekChk",
+    "value": "label[class='flo-radio']>i",
+    "type": "css"
+  },
+  {
+    "key": "uyeOlUyelikSozlesmesiChk",
+    "value": "uyelik_sozlesmesi",
+    "type": "name"
+  },
+  {
+    "key": "uyeOlAydinlatmaMetniChk",
+    "value": "subscribed_kvkk",
+    "type": "name"
+  },
+  {
+    "key": "uyeOlOnayBtn",
+    "value": "//button[text()='ÜYE OL']",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlBtn",
+    "value": "//button[text()='Hemen Üye Ol']",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlAdinizTxt",
+    "value": "first_name",
+    "type": "name"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlSoyadinizTxt",
+    "value": "last_name",
+    "type": "name"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlEpostaAdresinizTxt",
+    "value": "email",
+    "type": "name"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlSifrenizTxt",
+    "value": "(//input[@name='password'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlTelefonNumaranizTxt",
+    "value": "input[type='tel']",
+    "type": "css"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlCinsiyetKadinChk",
+    "value": "(//label[@class='radio-box']/span)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlRandomCinsiyetChk",
+    "value": ".radio-box>span",
+    "type": "css"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlCinsiyetErkekChk",
+    "value": "(//label[@class='radio-box']/span)[2]",
+    "type": "css"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlUyelikSozlesmesiChk",
+    "value": "(//label[@class='checkbox auth__checkbox']/span)[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlAydinlatmaMetniChk",
+    "value": "(//label[@class='checkbox auth__checkbox']/span)[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlOnayBtn",
+    "value": "//button[text()='ÜYE OL']",
+    "type": "xpath"
+  },
+  {
+    "key": "favorilereEklemeSonrasiHesabinizYoksaHemenUyeOlBtn",
+    "value": ".customer-login-register-link",
+    "type": "css"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlAdinizTxt",
+    "value": "first_name",
+    "type": "name"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlSoyadinizTxt",
+    "value": "last_name",
+    "type": "name"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlEpostaAdresinizTxt",
+    "value": "email",
+    "type": "name"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlSifrenizTxt",
+    "value": ".form-control.register-password",
+    "type": "css"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlTelefonNumaranizTxt",
+    "value": "phone",
+    "type": "name"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlCinsiyetKadinChk",
+    "value": ".flo-radio.mr-5>i",
+    "type": "css"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlRandomCinsiyetChk",
+    "value": ".col-sm-8>label>i",
+    "type": "css"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlCinsiyetErkekChk",
+    "value": "label[class='flo-radio']>i",
+    "type": "css"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlUyelikSozlesmesiChk",
+    "value": "uyelik_sozlesmesi",
+    "type": "name"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlAydinlatmaMetniChk",
+    "value": "subscribed_kvkk",
+    "type": "name"
+  },
+  {
+    "key": "favorilereEklemeSonrasiUyeOlOnayBtn",
+    "value": "//button[text()='ÜYE OL']",
+    "type": "xpath"
+  }
+]

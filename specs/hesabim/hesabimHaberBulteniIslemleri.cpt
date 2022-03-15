@@ -1,0 +1,17 @@
+Created by Elyase on 15.01.2022
+
+This is a concept file with following syntax for each concept.
+
+# Açılan sol menüden Haber Bülteni Üyeliği menüsüne tıklanır
+* "haberBulteniUyeligiBtn" elementinin görünür olması kontrol edilir
+* "haberBulteniUyeligiBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# Açılan Haber Bülteni Üyeliği ekranından ilgili onaylar verilir
+* "haberBulteniEmailChk" elementinin görünür olması kontrol edilir
+* "haberBulteniEmailChk" elementine tıkla
+* "haberBulteniSmsChk" elementinin görünür olması kontrol edilir
+* "haberBulteniOnayChk" elementinin görünür olması kontrol edilir
+* "haberBulteniOnayChk" elementine tıkla
+* "haberBulteniGuncelleBtn" elementine tıkla
+* waitPageLoadCompleteJs

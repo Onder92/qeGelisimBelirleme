@@ -1,0 +1,32 @@
+[
+  {
+    "key": "yukleniyorMessageCtrl",
+    "value": "div[style='display: block;']",
+    "type": "css"
+  },
+  {
+    "key": "sepettekiUrunIndirimliFiyatTxt",
+    "value": "div[class='cart__price--actual']",
+    "type": "css"
+  },
+  {
+    "key": "sepettekiUrunGenelToplamTxt",
+    "value": ".generic-total",
+    "type": "css"
+  },
+  {
+    "key": "kargoPriceTxt",
+    "value": ".pull-right>span",
+    "type": "css"
+  },
+  {
+    "key": "kargoUcretsizTxt",
+    "value": "div[class='cart__footer-info']",
+    "type": "css"
+  },
+  {
+    "key": "bbmSifreGirisTxt",
+    "value": "frontend_password",
+    "type": "name"
+  }
+]

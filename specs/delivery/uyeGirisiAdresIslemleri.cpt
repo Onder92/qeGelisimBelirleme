@@ -1,0 +1,31 @@
+Created by testinium on 16.12.2021
+
+This is a concept file with following syntax for each concept.
+# Üye girişi sonrası adrese teslimat için yeni adres eklenir.
+* waitPageLoadCompleteJs
+* "adreseTeslimatYeniAdresEkleBtn" elementinin görünür olması kontrol edilir
+* "adreseTeslimatYeniAdresEkleBtn" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleBtn" elementine tıkla
+* waitPageLoadCompleteJs
+* "adreseTeslimatYeniAdresEkleAdresBasligiTxt" elementinin görünür olması kontrol edilir
+* "adreseTeslimatYeniAdresEkleAdresBasligiTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleAdresBasligiTxt" elementine "Ofis" değerini yaz
+* "adreseTeslimatYeniAdresEkleAdinizTxt" elementinin görünür olması kontrol edilir
+* "adreseTeslimatYeniAdresEkleAdinizTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleAdinizTxt" elementine fake "" değerini yaz
+* "adreseTeslimatYeniAdresEkleSoyadinizTxt" elementinin görünür olması kontrol edilir
+* "adreseTeslimatYeniAdresEkleSoyadinizTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleSoyadinizTxt" elementine fake "" değerini yaz
+* "adreseTeslimatYeniAdresEkleTelefonNumarasiTxt" elementinin görünür olması kontrol edilir
+* "adreseTeslimatYeniAdresEkleTelefonNumarasiTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleTelefonNumarasiTxt" elementine tıkla
+* "adreseTeslimatYeniAdresEkleTelefonNumarasiTxt" elementine "5347253927" değerini yaz
+* "adreseTeslimatYeniAdresEkleIlSecinizDrp" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleIlSecinizDrp" elementine tıkla
+* "adreseTeslimatYeniAdresEkleIlceSecinizDrp" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleIlceSecinizDrp" elementine tıkla
+* "adreseTeslimatYeniAdresEkleAdresTxt" elementinin görünür olması kontrol edilir
+* "adreseTeslimatYeniAdresEkleAdresTxt" elementine "Akasya Kule" değerini yaz
+* "adreseTeslimatYeniAdresEkleKaydetBtn" elementinin görünür olması kontrol edilir
+* "adreseTeslimatYeniAdresEkleKaydetBtn" elementinin tıklanabilir olması kontrol edilir "30"
+* "adreseTeslimatYeniAdresEkleKaydetBtn" elementine tıkla

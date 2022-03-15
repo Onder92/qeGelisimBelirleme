@@ -1,0 +1,67 @@
+[
+  {
+    "key": "odemeAdiminaGecBtn",
+    "value": ".btn.btn-green",
+    "type": "css"
+  },
+  {
+    "key": "adresAdiminaDonLinkBtn",
+    "value": ".completed>a[href='/checkout/address']",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetAdiminaDonLinkBtn",
+    "value": ".completed>a[href='/basket']",
+    "type": "css"
+  },
+  {
+    "key": "odemeKrediKartiNumarasiTxt",
+    "value": "cc_number",
+    "type": "id"
+  },
+  {
+    "key": "odemeKrediKartiAyBox",
+    "value": "card-expiration-month",
+    "type": "id"
+  },
+  {
+    "key": "odemeKrediKartiAyDrp",
+    "value": "//select[@id='card-expiration-month']/option[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "odemeKrediKartiYilBox",
+    "value": "card-expiration-year",
+    "type": "id"
+  },
+  {
+    "key": "odemeKrediKartiYilDrp",
+    "value": "//select[@id='card-expiration-year']/option[6]",
+    "type": "xpath"
+  },
+  {
+    "key": "odemeKrediKartiGuvenlikKoduTxt",
+    "value": "card-ccv",
+    "type": "id"
+  },
+  {
+    "key": "odemeMesafeliSatisSozlesmesiChk",
+    "value": "js-cc-check--icon",
+    "type": "id"
+  },
+  {
+    "key": "odemeodemeyiTamamlaBtn",
+    "value": ".btn.btn-green",
+    "type": "css"
+  },
+  {
+    "key": "odemeKrediKartıSmsCodeTxt",
+    "value": "input#smsCode",
+    "type": "css"
+  },
+  {
+    "key": "odemeKrediKartıOnaylaBtn",
+    "value": "button[id='submitBtn']",
+    "type": "css"
+  }
+]

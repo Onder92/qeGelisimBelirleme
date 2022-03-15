@@ -1,0 +1,27 @@
+[
+  {
+    "key": "anasayfaNpsBtn",
+    "value": "a[class='js-open-nps nps-item']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaNpsDegerlendirmeBtn",
+    "value": "(//img[@class='js-nps-ratio-image nps-ratio__image'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaNpsDegerlendirmeChk",
+    "value": "label[for='control_15']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaNpsDegerlendirmeTxt",
+    "value": "textarea[class='nsp-free-text']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaNpsDegerlendirmeGonderBtn",
+    "value": "button[class='js-nps-form-button btn btn-primary nps-form__button mt-3']",
+    "type": "css"
+  }
+]

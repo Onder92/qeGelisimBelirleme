@@ -1,0 +1,17 @@
+[
+  {
+    "key": "siralamaBox",
+    "value": "product-list-sorting-dropdown",
+    "type": "id"
+  },
+  {
+    "key": "enDusukFiyatSiralamaDrp",
+    "value": "(//select[@id='product-list-sorting-dropdown'])/option[text()='En Düşük Fiyat']",
+    "type": "xpath"
+  },
+  {
+    "key": "siralamaRandomSecimDrp",
+    "value": "(//select[@id='product-list-sorting-dropdown'])/option",
+    "type": "xpath"
+  }
+]

@@ -1,0 +1,27 @@
+Created by testinium on 16.12.2021
+
+This is a concept file with following syntax for each concept.
+# Üyelik oluşturma sonrası adrese teslimat için adres bilgisi eklenir.
+* waitPageLoadCompleteJs
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdresBasligiTxt" elementinin görünür olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdresBasligiTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdresBasligiTxt" elementine "Ev" değerini yaz
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdinizTxt" elementinin görünür olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdinizTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdinizTxt" elementine fake "" değerini yaz
+* "uyelikOlusturmaSonrasiAdreseTeslimatSoyadinizTxt" elementinin görünür olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatSoyadinizTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "uyelikOlusturmaSonrasiAdreseTeslimatSoyadinizTxt" elementine fake "" değerini yaz
+* "uyelikOlusturmaSonrasiAdreseTeslimatTelefonNumarasiTxt" elementinin görünür olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatTelefonNumarasiTxt" elementinin tıklanabilir olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatTelefonNumarasiTxt" elementine tıkla
+* "uyelikOlusturmaSonrasiAdreseTeslimatTelefonNumarasiTxt" elementine "5343628352" değerini yaz
+* "uyelikOlusturmaSonrasiAdreseTeslimatIlSecinizDrp" elementinin görünür olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatIlSecinizDrp" elementinin tıklanabilir olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatIlSecinizDrp" elementine tıkla
+* "uyelikOlusturmaSonrasiAdreseTeslimatIlceSecinizDrp" elementinin tıklanabilir olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatIlceSecinizDrp" elementinin görünür olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatIlceSecinizDrp" elementine tıkla
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdresTxt" elementinin görünür olması kontrol edilir
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdresTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "uyelikOlusturmaSonrasiAdreseTeslimatAdresTxt" elementine "Bostancı Merkez" değerini yaz

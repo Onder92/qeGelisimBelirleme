@@ -1,0 +1,67 @@
+[
+  {
+    "key": "sepetOnaySonrasiUyeOlmadanDevamEtBtn",
+    "value": "//span[text()='Devam Et']",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdinizTxt",
+    "value": "firstname",
+    "type": "name"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlmadanDevamEtSoyadinizTxt",
+    "value": "lastname",
+    "type": "name"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlmadanDevamEtEpostaAdresinizTxt",
+    "value": "(//input[@name='email'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetOnaySonrasiUyeOlmadanDevamEtSonrakiAdimBtn",
+    "value": "//button[text()='SONRAKİ ADIMA DEVAM ET']",
+    "type": "xpath"
+  },
+  {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatAdinizTxt",
+      "value": "(//input[@id='input-firstName'])[1]",
+      "type": "xpath"
+    },
+    {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatSoyadinizTxt",
+      "value": "(//input[@name='lastName'])[1]",
+      "type": "xpath"
+    },
+    {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatTelefonNumarasiTxt",
+      "value": "(//input[@type='tel'])[1]",
+      "type": "xpath"
+    },
+    {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatIlSecinizBox",
+      "value": "(//select[@name='city'])[1]",
+      "type": "xpath"
+    },
+    {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatIlSecinizDrp",
+      "value": "(//select[@name='city'])[1]/option[2]",
+      "type": "xpath"
+    },
+    {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatIlceSecinizBox",
+      "value": "(//select[@name='county'])[1]",
+      "type": "xpath"
+    },
+    {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatIlceSecinizDrp",
+      "value": "(//select[@name='county'])[1]/option[6]",
+      "type": "xpath"
+    },
+    {
+      "key": "sepetOnaySonrasiUyeOlmadanDevamEtAdreseTeslimatAdresTxt",
+      "value": "(//textarea[@name='street'])[1]",
+      "type": "xpath"
+    }
+  ]

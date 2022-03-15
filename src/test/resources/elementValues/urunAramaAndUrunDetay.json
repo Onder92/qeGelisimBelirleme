@@ -1,0 +1,57 @@
+[
+  {
+    "key": "anasayfaLogo",
+    "value": ".checkout-header__logo>img",
+    "type": "css"
+  },
+  {
+    "key": "searchBox",
+    "value": ".fas.fa-search",
+    "type": "css"
+  },
+  {
+    "key": "popupSearchBox",
+    "value": ".form-control.search-form.pw-search-input",
+    "type": "css"
+  },
+  {
+    "key": "popupSearchBoxAraBtn",
+    "value": "//button[text()='ARA']",
+    "type": "xpath"
+  },
+  {
+    "key": "randomUrunSecimBtn",
+    "value": ".product-image-wrapper>a>img",
+    "type": "css"
+  },
+  {
+    "key": "randomRenkSecimBtn",
+    "value": ".product-options-list>li>a>img",
+    "type": "css"
+  },
+  {
+    "key": "randomBedenSecimBtn",
+    "value": ".product-options-list.list-inline.size>li[class=' ']",
+    "type": "css"
+  },
+  {
+    "key": "sepeteEkleBtn",
+    "value": "add2cart",
+    "type": "id"
+  },
+  {
+    "key": "favorilerimeEkleCikarBtn",
+    "value": ".btn.btn-link.btn-block",
+    "type": "css"
+  },
+  {
+    "key": "popupSepeteGitBtn",
+    "value": "(//a[text()='SEPETE GİT'])[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "popupAlisveriseDevamEtBtn",
+    "value": "(//a[text()='ALIŞVERİŞE DEVAM ET'])[2]",
+    "type": "xpath"
+  }
+]

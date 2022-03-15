@@ -1,0 +1,78 @@
+Created by Elyase on 15.01.2022
+
+This is a concept file with following syntax for each concept.
+
+# Açılan sol menüden Adres Defteri menüsüne tıklanır
+* "adresDefteriBtn" elementinin görünür olması kontrol edilir
+* "adresDefteriBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# Açılan Adres Defteri sayfasından hesaba yeni adres tanımlanır.
+* "adresDefteriYeniAdresEkleBtn" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleBtn" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleBtn" elementine tıkla
+* "adresDefteriYeniAdresEkleAdresBasligiTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleAdresBasligiTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleAdresBasligiTxt" elementine "HomeOfis" değerini yaz
+* "adresDefteriYeniAdresEkleAdTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleAdTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleAdTxt" elementine fake "" değerini yaz
+* "adresDefteriYeniAdresEkleSoyadTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleSoyadTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleSoyadTxt" elementine fake "" değerini yaz
+* "adresDefteriYeniAdresEkleCepTelefonuTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleCepTelefonuTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleCepTelefonuTxt" elementine "5348327020" değerini yaz
+* "adresDefteriYeniAdresEkleIlSecinizBox" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleIlSecinizBox" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleIlSecinizDrp" elementine tıkla
+* "adresDefteriYeniAdresEkleIlceSecinizBox" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleIlceSecinizBox" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleIlceSecinizDrp" elementine tıkla
+* "adresDefteriYeniAdresEkleAdresTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleAdresTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleAdresTxt" elementine "Yıldıztepe/Bağcılar/İSTANBUL" değerini yaz
+* "adresDefteriYeniAdresEkleKaydetBtn" elementinin görünür olması kontrol edilir
+* "adresDefteriYeniAdresEkleKaydetBtn" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriYeniAdresEkleKaydetBtn" elementine tıkla
+* "yukleniyorMessageCtrl" elementinin görünür olmadığı kontrol edilir
+* waitPageLoadCompleteJs
+
+# Açılan Adres Defteri sayfasında hesapta mevcut olan ilk adres düzenlenir
+* "adresDefteriAdresDuzenleBtn" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleBtn" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleBtn" elementine tıkla
+* "adresDefteriAdresDuzenleAdresBasligiTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleAdresBasligiTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleAdresBasligiTxt" elementine "HomeOfisDuzenlendi" değerini yaz
+* "adresDefteriAdresDuzenleAdTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleAdTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleAdTxt" elementine fake "" değerini yaz
+* "adresDefteriAdresDuzenleSoyadTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleSoyadTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleSoyadTxt" elementine fake "" değerini yaz
+* "adresDefteriAdresDuzenleCepTelefonuTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleCepTelefonuTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleCepTelefonuTxt" elementine "5348327020" değerini yaz
+* "adresDefteriAdresDuzenleIlSecinizBox" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleIlSecinizBox" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleIlSecinizDrp" elementine tıkla
+* "adresDefteriAdresDuzenleIlceSecinizBox" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleIlceSecinizBox" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleIlceSecinizDrp" elementine tıkla
+* "adresDefteriAdresDuzenleAdresTxt" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleAdresTxt" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleAdresTxt" elementine "Yıldıztepe/Bağcılar/İSTANBUL" değerini yaz
+* "adresDefteriAdresDuzenleKaydetBtn" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresDuzenleKaydetBtn" elementinin tıklanabilir olması kontrol edilir "30"
+* "adresDefteriAdresDuzenleKaydetBtn" elementine tıkla
+* "yukleniyorMessageCtrl" elementinin görünür olmadığı kontrol edilir
+* waitPageLoadCompleteJs
+
+# Açılan Adres Defteri sayfasında hesapta mevcut olan ilk adres silinir
+* "adresDefteriAdresSilBtn" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresSilBtn" elementine tıkla
+* waitPageLoadCompleteJs
+* "adresDefteriAdresSilOnaylaBtn" elementinin görünür olması kontrol edilir
+* "adresDefteriAdresSilOnaylaBtn" elementine tıkla
+* waitPageLoadCompleteJs
