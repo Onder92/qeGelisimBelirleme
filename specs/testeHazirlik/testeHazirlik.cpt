@@ -1,5 +1,6 @@
 # Otomasyon ortamı otomatik olarak ayarlanır.
 * "bbmSifreGirisTxt" elementi görünürse, "bbmSifreGirisTxt" elementine "bbm2021" değerini yaz ve entere bas
+* "cookieKabulEdiyorumBtn" elementi görünürse, "cookieKabulEdiyorumBtn" elementine tıkla
 
 # -STAGE- search kullanımı
 * waitPageLoadCompleteJs

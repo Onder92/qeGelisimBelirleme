@@ -1,5 +1,10 @@
 [
   {
+    "key": "cookieKabulEdiyorumBtn",
+    "value": "div[class='cookie-close']",
+    "type": "css"
+  },
+  {
     "key": "anasayfaNpsBtn",
     "value": "a[class='js-open-nps nps-item']",
     "type": "css"
@@ -23,5 +28,44 @@
     "key": "anasayfaNpsDegerlendirmeGonderBtn",
     "value": "button[class='js-nps-form-button btn btn-primary nps-form__button mt-3']",
     "type": "css"
+  },
+  {
+    "key": "anasayfaKadinKategoriBtn",
+    "value": "(//span[text()='Kadın'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaErkekKategoriBtn",
+    "value": "(//span[text()='Erkek'])[2]",
+    "type": "xpath"
+  },  {
+    "key": "anasayfaCocukKategoriBtn",
+    "value": "(//span[text()='Çocuk'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaSporKategoriBtn",
+    "value": "//span[text()='Spor']",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaAksesuarKategoriBtn",
+    "value": "(//span[text()='Aksesuar'])[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaGiyimKategoriBtn",
+    "value": "(//span[text()='Giyim'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaOutletKategoriBtn",
+    "value": "//span[text()='Outlet']",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaTumKategorilerKategoriBtn",
+    "value": "//span[text()='Tüm Kategoriler']",
+    "type": "xpath"
   }
 ]

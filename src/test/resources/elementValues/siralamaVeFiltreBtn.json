@@ -5,6 +5,36 @@
     "type": "id"
   },
   {
+    "key": "filtreCinsiyetChkbox",
+    "value": "div[class='listing__filter-list js-listing-filter-list double mar']>label",
+    "type": "css"
+  },
+  {
+    "key": "filtreBedenChkbox",
+    "value": "div[id='collapse-Beden']>div>div>label",
+    "type": "css"
+  },
+  {
+    "key": "filtreRenkChkbox",
+    "value": "div[id='collapse-Renk']>div>div>label",
+    "type": "css"
+  },
+  {
+    "key": "filtreMateryalChkbox",
+    "value": "div[id='collapse-Materyal']>div>div>label",
+    "type": "css"
+  },
+  {
+    "key": "filtreFiyatAraligiChkbox",
+    "value": "div[id='collapse-price']>div>div>label",
+    "type": "css"
+  },
+  {
+    "key": "filtreIndirimYuzdesiChkbox",
+    "value": "div[id='collapse-price_percent']>div>div>label",
+    "type": "css"
+  },
+  {
     "key": "enDusukFiyatSiralamaDrp",
     "value": "(//select[@id='product-list-sorting-dropdown'])/option[text()='En Düşük Fiyat']",
     "type": "xpath"

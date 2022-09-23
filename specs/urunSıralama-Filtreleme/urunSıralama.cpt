@@ -1,0 +1,32 @@
+Created by onderyerim on 23.09.2022
+
+This is a concept file with following syntax for each concept.
+# Random olarak Cinsiyet seçimi yapılır.
+* "filtreCinsiyetChkbox" elementinin görünür olması kontrol edilir "30"
+* "filtreCinsiyetChkbox" elementinin tıklanabilir olması kontrol edilir
+* "filtreCinsiyetChkbox" listesinden random olarak seçim yapılır
+
+# Random olarak Beden seçimi yapılır.
+* "filtreBedenChkbox" elementinin görünür olması kontrol edilir "30"
+* "filtreBedenChkbox" elementinin tıklanabilir olması kontrol edilir
+* "filtreBedenChkbox" listesinden random olarak seçim yapılır
+
+# Random olarak Renk seçimi yapılır.
+* "filtreRenkChkbox" elementinin görünür olması kontrol edilir "30"
+* "filtreRenkChkbox" elementinin tıklanabilir olması kontrol edilir
+* "filtreRenkChkbox" listesinden random olarak seçim yapılır
+
+# Random olarak Materyal seçimi yapılır.
+* "filtreMateryalChkbox" elementinin görünür olması kontrol edilir "30"
+* "filtreMateryalChkbox" elementinin tıklanabilir olması kontrol edilir
+* "filtreMateryalChkbox" listesinden random olarak seçim yapılır
+
+# Random olarak Fiyat Aralığı seçimi yapılır.
+* "filtreFiyatAraligiChkbox" elementinin görünür olması kontrol edilir "30"
+* "filtreFiyatAraligiChkbox" elementinin tıklanabilir olması kontrol edilir
+* "filtreFiyatAraligiChkbox" listesinden random olarak seçim yapılır
+
+# Random olarak İndirim Yüzdesi seçimi yapılır.
+* "filtreIndirimYuzdesiChkbox" elementinin görünür olması kontrol edilir "30"
+* "filtreIndirimYuzdesiChkbox" elementinin tıklanabilir olması kontrol edilir
+* "filtreIndirimYuzdesiChkbox" listesinden random olarak seçim yapılır
