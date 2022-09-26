@@ -30,72 +30,21 @@ This is a concept file with following syntax for each concept.
 * waitPageLoadCompleteJs
 * "200" milisaniye bekle
 
-# Listelenen ürünlerden bir tanesi random olarak seçilir.
-* waitPageLoadCompleteJs
-* "yukleniyorMessageCtrl" elementinin görünür olmadığı kontrol edilir
-* "randomUrunSecimBtn" elementinin görünür olması kontrol edilir
-* "randomUrunSecimBtn" listesinden random olarak seçim yapılır
-* "yukleniyorMessageCtrl" elementinin görünür olmadığı kontrol edilir
-* waitPageLoadCompleteJs
-
-# Random olarak renk seçimi yapılır.
-* waitPageLoadCompleteJs
-* "randomRenkSecimBtn" elementi görünürse, "randomRenkSecimBtn" listesinden random seçim yapılır.
-* waitPageLoadCompleteJs
-
 # Seçilen ürünün random olarak beden seçimi yapılır.
 * waitPageLoadCompleteJs
-* "randomBedenSecimBtn" elementi görünürse, "randomBedenSecimBtn" listesinden random seçim yapılır.
+* "bedenSecimiBox" elementinin görünür olması kontrol edilir "30"
+* "bedenSecimiBox" elementinin tıklanabilir olması kontrol edilir
+* "bedenSecimiBox" elementine tıkla
+* "200" milisaniye bekle
+* "bedenSecimDropdown" elementinin tıklanabilir olması kontrol edilir
+* "bedenSecimDropdown" listesinden random olarak seçim yapılır
 * waitPageLoadCompleteJs
 
-# Seçilen ürün sepete eklenir.
-* "sepeteEkleBtn" elementinin görünür olması kontrol edilir
-* "sepeteEkleBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "sepeteEkleBtn" elementine tıkla
-
-# Seçilen ürün favorilere eklenir.
-* "favorilerimeEkleCikarBtn" elementinin görünür olması kontrol edilir
-* "favorilerimeEkleCikarBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "favorilerimeEkleCikarBtn" elementine tıkla
-
-# Favorilere eklenen ürün, ürün detayda favorilerden çıkartılır.
-* waitPageLoadCompleteJs
-* "favorilerimeEkleCikarBtn" elementinin görünür olması kontrol edilir
-* "favorilerimeEkleCikarBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "favorilerimeEkleCikarBtn" elementine tıkla
-
-# Favorilere eklenen ürün/ürünler, hesabım sayfasında favorilerden çıkartılır.
-* waitPageLoadCompleteJs
-* "anasayfaLogo" elementinin görünür olması kontrol edilir
-* "anasayfaLogo" elementinin tıklanabilir olması kontrol edilir "30"
-* "anasayfaLogo" elementine tıkla
-* waitPageLoadCompleteJs
-* "hesabimBtn" elementinin görünür olması kontrol edilir
-* "hesabimBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "hesabimBtn" elementine tıkla
-* "favorilerimBtn" elementinin görünür olması kontrol edilir
-* "favorilerimBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "favorilerimBtn" elementine tıkla
-* "favorilerdenCikarBtn" elementi görünürse, "favorilerdenCikarBtn" elementine tıkla
-* waitPageLoadCompleteJs
-* "yukleniyorMessageCtrl" elementinin görünür olmadığı kontrol edilir
-* "favorilerdenCikarBtn" elementi görünürse, "favorilerdenCikarBtn" elementine tıkla
-
-
-# Sepete eklenen ürün ile açılan popuptan sepete gidilir.
-* "popupSepeteGitBtn" elementinin görünür olması kontrol edilir
-* "popupSepeteGitBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "popupSepeteGitBtn" elementine tıkla
+# Seçilen üründe Satın Al butonuna tıklanır.
+* "satinAlBtn" elementinin görünür olması kontrol edilir
+* "satinAlBtn" elementinin tıklanabilir olması kontrol edilir "30"
+* "satinAlBtn" elementine tıkla
 * waitPageLoadCompleteJs
 
-# Sepete eklenen ürün ile açılan popuptan alışverişe devam edilir.
-* "popupAlisveriseDevamEtBtn" elementinin görünür olması kontrol edilir
-* "popupAlisveriseDevamEtBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "popupAlisveriseDevamEtBtn" elementine tıkla
-* waitPageLoadCompleteJs
-
-# Sepete eklenen ürün ile açılan pop-up kapatılır.
-* "sepeteEklePopupKapatBtn" elementinin görünür olması kontrol edilir
-* "sepeteEklePopupKapatBtn" elementinin tıklanabilir olması kontrol edilir "30"
-* "sepeteEklePopupKapatBtn" elementine tıkla
-* waitPageLoadCompleteJs
+# Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Şu anki url "flo.com.tr/urun/" içeriyor mu

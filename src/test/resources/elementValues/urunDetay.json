@@ -1,0 +1,17 @@
+[
+  {
+    "key": "bedenSecimiBox",
+    "value": "select[class='js-select-size-options']",
+    "type": "css"
+  },
+  {
+    "key": "bedenSecimDropdown",
+    "value": "select[class='js-select-size-options']>option",
+    "type": "css"
+  },
+  {
+    "key": "satinAlBtn",
+    "value": "goto-main-web",
+    "type": "id"
+  }
+]

@@ -55,7 +55,7 @@
   },
   {
     "key": "anasayfaGiyimKategoriBtn",
-    "value": "(//span[text()='Giyim'])[2]",
+    "value": "(//span[text()='Giyim'])[5]",
     "type": "xpath"
   },
   {

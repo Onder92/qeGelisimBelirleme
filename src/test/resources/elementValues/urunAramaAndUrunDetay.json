@@ -6,12 +6,12 @@
   },
   {
     "key": "searchBox",
-    "value": ".fas.fa-search",
-    "type": "css"
+    "value": "(//input[@placeholder='Aradığınız ürün, marka veya kategoriyi yazınız'])[1]",
+    "type": "xpath"
   },
   {
     "key": "popupSearchBox",
-    "value": ".form-control.search-form.pw-search-input",
+    "value": "input[placeholder='Ara..']",
     "type": "css"
   },
   {

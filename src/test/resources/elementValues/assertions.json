@@ -46,8 +46,8 @@
   },
   {
     "key": "urunDetayFiyatTxtCrtl",
-    "value": "(//div[@class='product__prices '])[1]",
-    "type": "xpath"
+    "value": "div[class='product__info d-none order-2 d-lg-flex']",
+    "type": "css"
   },
   {
     "key": "urunDetayIMGCrtl",
