@@ -5,7 +5,7 @@ Created by onderyerim on 23.09.2022
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
-Anasayfa Element Kontrolleri Yapılır. / Case 1
+Anasayfadaki Elementlerin Kontrolleri Yapılır. / Case 1
 -------------
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfada header ve search box görünür olduğu kontrol edilir.
@@ -166,9 +166,9 @@ Search Box'tan Ürün Aratılır, Random Olarak Ürün Seçilir ve Satın Alma �
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Searchbox'ta arama yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
-* Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen ürünün random olarak renk seçimi yapılır.
 * Seçilen ürünün random olarak beden seçimi yapılır.
+* Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Yönlendirilen sayfada aynı ürün olduğu kontrol edilir.
+* Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.

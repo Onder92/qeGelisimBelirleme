@@ -175,9 +175,34 @@
     "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "musteriHizmetleriYardimSayfaCtrl",
+    "value": "div[class='col-lg-4 col-sm-12']",
+    "type": "css"
+  },
+  {
+    "key": "musteriHizmetleriGizlilikVeCerezSayfaCtrl",
+    "value": "div[class='bg-white p-4 mb-5']",
+    "type": "css"
+  },
+  {
+    "key": "musteriHizmetleriKisiselVerilerinKorunmasiSayfaCtrl",
+    "value": "//*[text()='FLO MAĞAZACILIK VE PAZARLAMA A.Ş. KİŞİSEL VERİLERİN KORUNMASI VE İŞLENMESİ POLİTİKASI']",
+    "type": "xpath"
+  },
+  {
+    "key": "musteriHizmetleriKurumsalSayfaCtrl",
+    "value": "div[class='row justify-content-center']",
+    "type": "css"
+  },
+  {
+    "key": "musteriHizmetleriMagazalarimizSayfaCtrl",
+    "value": "div[class='map-stores']",
+    "type": "css"
+  },
+  {
+    "key": "musteriHizmetleriIletisimSayfaCtrl",
+    "value": "div[class='col-lg-4 col-sm-12']",
+    "type": "css"
   },
   {
     "key": "",

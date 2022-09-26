@@ -56,5 +56,5 @@ This is a concept file with following syntax for each concept.
 # Flo ürün detay sayfasına aktarıldığı kontrol edilir.
 * Şu anki url "flo.com.tr/urun/" içeriyor mu
 
-# Yönlendirilen sayfada aynı ürün olduğu kontrol edilir.
+# Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 * "urunDetayProductNameCtrl" elementinin text değeri "urunDetayProductNameKeyValue" değerine eşit mi
