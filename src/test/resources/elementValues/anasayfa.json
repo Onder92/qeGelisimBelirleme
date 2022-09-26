@@ -64,7 +64,7 @@
     "type": "xpath"
   },
   {
-    "key": "anasayfaTumKategorilerKategoriBtn",
+    "key": "anasayfaTumkategorilerKategoriBtn",
     "value": "//span[text()='Tüm Kategoriler']",
     "type": "xpath"
   }

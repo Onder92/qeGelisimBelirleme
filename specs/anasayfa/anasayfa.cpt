@@ -26,3 +26,52 @@ This is a concept file with following syntax for each concept.
 * "anasayfaKadinKategoriBtn" elementine tıkla
 * "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 * "kadinKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan -Erkek- kategorisine tıklanır.
+* "anasayfaErkekKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaErkekKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaErkekKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "erkekKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan -Çocuk- kategorisine tıklanır.
+* "anasayfaCocukKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaCocukKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaCocukKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "cocukKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan -Spor- kategorisine tıklanır.
+* "anasayfaSporKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaSporKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaSporKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "sporKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan -Aksesuar- kategorisine tıklanır.
+* "anasayfaAksesuarKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaAksesuarKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaAksesuarKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "aksesuarKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan -Giyim- kategorisine tıklanır.
+* "anasayfaGiyimKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaGiyimKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaGiyimKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "giyimKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan -Outlet- kategorisine tıklanır.
+* "anasayfaOutletKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaOutletKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaOutletKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "outletKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan -Tüm Kategoriler- kategorisine tıklanır.
+* "anasayfaTumkategorilerKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaTumkategorilerKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaTumkategorilerKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "tumkategorilerKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"

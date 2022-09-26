@@ -26,3 +26,31 @@ Anasayfadaki -Kadın- Kategorisine Tıklanır, Random Filtreleme Yapılır, Rand
 * Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
+
+Anasayfadaki -Erkek- Kategorisine Tıklanır, Random Filtreleme Yapılır, Random Detay Sayfasında Element Kontrolleri Yapılır.
+----------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan -Erkek- kategorisine tıklanır.
+* -Erkek- filtresi uygulandığı kontrol edilir.
+* Listelenen ürünler random olarak sıralanır.
+* Random olarak Cinsiyet seçimi yapılır.
+* Random olarak Beden seçimi yapılır.
+* Random olarak Renk seçimi yapılır.
+* Random olarak Materyal seçimi yapılır.
+* Random olarak İndirim Yüzdesi seçimi yapılır.
+* Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
+* Ürün detay sayfasında element kontrolleri yapılır.
+
+Anasayfadaki -Çocuk- Kategorisine Tıklanır, Random Filtreleme Yapılır, Random Detay Sayfasında Element Kontrolleri Yapılır.
+----------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan -Erkek- kategorisine tıklanır.
+* -Çocuk- filtresi uygulandığı kontrol edilir.
+* Listelenen ürünler random olarak sıralanır.
+* Random olarak Cinsiyet seçimi yapılır.
+* Random olarak Beden seçimi yapılır.
+* Random olarak Renk seçimi yapılır.
+* Random olarak Materyal seçimi yapılır.
+* Random olarak İndirim Yüzdesi seçimi yapılır.
+* Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
+* Ürün detay sayfasında element kontrolleri yapılır.
