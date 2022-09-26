@@ -75,3 +75,63 @@ This is a concept file with following syntax for each concept.
 * "anasayfaTumkategorilerKategoriBtn" elementine tıkla
 * "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 * "tumkategorilerKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfadan Müşteri Hizmetleri -Yardım- butonuna tıklanır.
+* "anasayfaMusteriHizmetleriYardimBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaMusteriHizmetleriYardimBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaMusteriHizmetleriYardimBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# -Yardım- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+* Şu anki url "flo.com.tr/page?url=kurumsal-iletisim" içeriyor mu
+
+# Anasayfadan Müşteri Hizmetleri -Yardım- butonuna tıklanır.
+* "anasayfaMusteriHizmetleriYardimBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaMusteriHizmetleriYardimBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaMusteriHizmetleriYardimBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# Anasayfadan Müşteri Hizmetleri -Gizlilik ve Çerez Politikası- butonuna tıklanır.
+* "anasayfaGizlilikVeCerezPolitikasıBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaGizlilikVeCerezPolitikasıBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaGizlilikVeCerezPolitikasıBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# -Gizlilik ve Çerez Politikası- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+* Şu anki url "kinetix.com.tr/page?url=gizlilik-ve-cerez" içeriyor mu
+
+# Anasayfadan Müşteri Hizmetleri -Kişisel Verilerin Korunması- butonuna tıklanır.
+* "anasayfaKisiselVerilerinKorunmasiBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaKisiselVerilerinKorunmasiBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaKisiselVerilerinKorunmasiBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# -Kişisel Verilerin Korunması- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+* Şu anki url "kinetix.com.tr/page?url=kisisel-verilerin-korunmasi" içeriyor mu
+
+# Anasayfadan Müşteri Hizmetleri -Kurumsal- butonuna tıklanır.
+* "anasayfaKurumsalBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaKurumsalBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaKurumsalBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# -Kurumsal- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+* Şu anki url "kurumsal.flo.com.tr/" içeriyor mu
+
+# Anasayfadan Müşteri Hizmetleri -Mağazalarımız- butonuna tıklanır.
+* "anasayfaMagazalarimizBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaMagazalarimizBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaMagazalarimizBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# -Mağazalarımız- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+* Şu anki url "flo.com.tr/magaza" içeriyor mu
+
+# Anasayfadan Müşteri Hizmetleri -İletişim- butonuna tıklanır.
+* "anasayfaIletisimBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaIletisimBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaIletisimBtn" elementine tıkla
+* waitPageLoadCompleteJs
+
+# -İletişim- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+* Şu anki url "flo.com.tr/page?url=kurumsal-iletisim" içeriyor mu

@@ -170,9 +170,9 @@
     "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "urunDetayProductNameCtrl",
+    "value": "h1[class='product__name description text-capital order-1 js-product-name']",
+    "type": "css"
   },
   {
     "key": "",

@@ -67,5 +67,35 @@
     "key": "anasayfaTumkategorilerKategoriBtn",
     "value": "//span[text()='Tüm Kategoriler']",
     "type": "xpath"
+  },
+  {
+    "key": "anasayfaMusteriHizmetleriYardimBtn",
+    "value": "//a[text()='Yardım']",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaGizlilikVeCerezPolitikasıBtn",
+    "value": "//a[text()='Gizlilik ve Çerez Politikası']",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaKisiselVerilerinKorunmasiBtn",
+    "value": "//a[text()='Kişisel Verilerin Korunması']",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaKurumsalBtn",
+    "value": "//a[text()='Kurumsal']",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaMagazalarimizBtn",
+    "value": "//a[text()='Mağazalarımız']",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaIletisimBtn",
+    "value": "//a[text()='İletişim']",
+    "type": "xpath"
   }
 ]

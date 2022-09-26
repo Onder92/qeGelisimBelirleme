@@ -125,12 +125,50 @@ Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapı
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 
-Search box'tan Ürün Aratılır, Random Olarak Ürün Seçilir ve Satın Alma İçin Flo'ya Aktarıldığı Kontrol Edilir. / Case 10
+Anasayfadaki Müşteri Hizmetleri -Yardım- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 10
+------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan Müşteri Hizmetleri -Yardım- butonuna tıklanır.
+* -Yardım- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+
+Anasayfadaki Müşteri Hizmetleri -Gizlilik ve Çerez Politikası- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 11
+------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan Müşteri Hizmetleri -Gizlilik ve Çerez Politikası- butonuna tıklanır.
+* -Gizlilik ve Çerez Politikası- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+
+Anasayfadaki Müşteri Hizmetleri -Kişisel Verilerin Korunması- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 12
+------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan Müşteri Hizmetleri -Kişisel Verilerin Korunması- butonuna tıklanır.
+* -Kişisel Verilerin Korunması- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+
+Anasayfadaki Müşteri Hizmetleri -Kurumsal- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 13
+------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan Müşteri Hizmetleri -Kurumsal- butonuna tıklanır.
+* -Kurumsal- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+
+Anasayfadaki Müşteri Hizmetleri -Mağazalarımız- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 14
+------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan Müşteri Hizmetleri -Mağazalarımız- butonuna tıklanır.
+* -Mağazalarımız- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+
+Anasayfadaki Müşteri Hizmetleri -İletişim- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 15
+------------
+* Otomasyon ortamı otomatik olarak ayarlanır.
+* Anasayfadan Müşteri Hizmetleri -İletişim- butonuna tıklanır.
+* -İletişim- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+
+Search Box'tan Ürün Aratılır, Random Olarak Ürün Seçilir ve Satın Alma İçin Flo'ya Aktarıldığı Kontrol Edilir. / Case 16
 ----------------
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Searchbox'ta arama yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
-* Random olarak Renk seçimi yapılır.
+* Seçilen ürünün detaylı adı kaydedilir.
+* Seçilen ürünün random olarak renk seçimi yapılır.
 * Seçilen ürünün random olarak beden seçimi yapılır.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Yönlendirilen sayfada aynı ürün olduğu kontrol edilir.
