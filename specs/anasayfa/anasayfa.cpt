@@ -1,7 +1,28 @@
 Created by onderyerim on 23.09.2022
 
 This is a concept file with following syntax for each concept.
+
+# Anasayfada header ve search box görünür olduğu kontrol edilir.
+* "anasayfaKinetixHeaderMenuIcon" elementinin görünür olması kontrol edilir "30"
+* "anasayfaSearchBox" elementinin görünür olması kontrol edilir "30"
+* "anasayfaSatisNoktaları" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfada mega menülerin görünür olduğu kontrol edilir.
+* "anasayfaKategorilerConteinerCtrl" elementinin görünür olması kontrol edilir "30"
+
+
+# Anasayfada swiper ve bannerların görünür olduğu kontrol edilir.
+* "anasayfaSwiperIMGCtrl" elementinin görünür olması kontrol edilir "30"
+* "anasayfaBannerKategoriCtrl" elementinin görünür olması kontrol edilir "30"
+* "anasayfaBannerCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Anasayfada footerların görünür olduğu kontrol edilir.
+* "footerMusteriHizmetleri" elementinin görünür olması kontrol edilir "30"
+* "footerSosyalMedyaTakipEdin" elementinin görünür olması kontrol edilir "30"
+
 # Anasayfadan -Kadın- kategorisine tıklanır.
 * "anasayfaKadinKategoriBtn" elementinin görünür olması kontrol edilir "30"
 * "anasayfaKadinKategoriBtn" elementinin tıklanabilir olması kontrol edilir
 * "anasayfaKadinKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "kadinKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"

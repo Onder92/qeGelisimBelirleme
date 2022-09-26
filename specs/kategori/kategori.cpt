@@ -1,0 +1,7 @@
+Created by onderyerim on 26.09.2022
+
+This is a concept file with following syntax for each concept.
+
+# -Kadın- filtresi uygulandığı kontrol edilir.
+* "kadinKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+* Şu anki url "kinetix.com.tr/kadin" içeriyor mu

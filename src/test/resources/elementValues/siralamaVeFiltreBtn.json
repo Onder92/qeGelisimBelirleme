@@ -1,8 +1,13 @@
 [
   {
     "key": "siralamaBox",
-    "value": "product-list-sorting-dropdown",
-    "type": "id"
+    "value": "select[class='form-control js-commerce-sort-order active']",
+    "type": "css"
+  },
+  {
+    "key": "siralamaSecimRandom",
+    "value": "select[class='form-control js-commerce-sort-order active']>option",
+    "type": "css"
   },
   {
     "key": "filtreCinsiyetChkbox",

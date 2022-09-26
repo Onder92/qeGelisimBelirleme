@@ -5,6 +5,11 @@
     "type": "css"
   },
   {
+    "key": "yukleniyorMessageCtrl2",
+    "value": "div[id='block-box']",
+    "type": "css"
+  },
+  {
     "key": "sepettekiUrunIndirimliFiyatTxt",
     "value": "div[class='cart__price--actual']",
     "type": "css"
@@ -28,6 +33,151 @@
     "key": "bbmSifreGirisTxt",
     "value": "frontend_password",
     "type": "name"
+  },
+  {
+    "key": "urunDetayBrandNameTxtCrtl",
+    "value": "div[class='product__brand mb-2 order-1']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetayProductNameTxtCrtl",
+    "value": "h1[class='product__name description text-capital order-1 js-product-name']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetayFiyatTxtCrtl",
+    "value": "(//div[@class='product__prices '])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "urunDetayIMGCrtl",
+    "value": "div[class='detail__images-wrapper']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetayRenkIMGCrtl",
+    "value": "img[class='detail__colors-image']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetayUrunAciklamasiCrtl",
+    "value": "div[class='detail__description']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetayUrunOzellikleriTabloCrtl",
+    "value": "div[class='row detail__properties']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetaySaticiHakkindaTitleCrtl",
+    "value": "div[class='detail__section-title merchant-title']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetaySaticiHakkindaDetayCrtl",
+    "value": "div[class='detail__description-content merchant-detail']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaKinetixHeaderMenuIcon",
+    "value": "div[class='header__menuLogo']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaSearchBox",
+    "value": "a[data-test='open-to-search-popup']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaSatisNoktaları",
+    "value": "a[class='menu__segment js-mega-menu-link']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaKategorilerConteinerCtrl",
+    "value": "div[class='navigation__inner js-navigation-container d-none d-lg-flex']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaSwiperIMGCtrl",
+    "value": "div[class='navigation__inner js-navigation-container d-none d-lg-flex']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaBannerKategoriCtrl",
+    "value": "div[class='col-sm-4']",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaBannerCtrl",
+    "value": "div[class='col-sm-6']",
+    "type": "css"
+  },
+  {
+    "key": "footerMenuler",
+    "value": "div[class='footer__top']",
+    "type": "css"
+  },
+  {
+    "key": "footerMusteriHizmetleri",
+    "value": "div[class='footer__links main']",
+    "type": "css"
+  },
+  {
+    "key": "footerSosyalMedyaTakipEdin",
+    "value": "div[class='footer__links social']",
+    "type": "css"
+  },
+  {
+    "key": "kadinKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/kadin']",
+    "type": "css"
+  },
+  {
+    "key": "erkekKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/erkek']",
+    "type": "css"
+  },
+  {
+    "key": "cocukKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/cocuk']",
+    "type": "css"
+  },
+  {
+    "key": "sporKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/spor-ayakkabi']",
+    "type": "css"
+  },
+  {
+    "key": "aksesuarKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/aksesuar']",
+    "type": "css"
+  },
+  {
+    "key": "giyimKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/giyim']",
+    "type": "css"
+  },
+  {
+    "key": "outletKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/kampanya/outlet']",
+    "type": "css"
+  },
+  {
+    "key": "tumkategorilerKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/tum-kategoriler']",
+    "type": "css"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
   },
   {
     "key": "",

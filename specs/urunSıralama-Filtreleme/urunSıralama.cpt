@@ -1,32 +1,73 @@
 Created by onderyerim on 23.09.2022
 
 This is a concept file with following syntax for each concept.
+
+# Listelenen ürünler random olarak sıralanır.
+* "siralamaBox" elementinin görünür olması kontrol edilir "30"
+* "siralamaBox" elementinin tıklanabilir olması kontrol edilir
+* "siralamaBox" elementine tıkla
+* "siralamaSecimRandom" elementinin tıklanabilir olması kontrol edilir
+* "siralamaSecimRandom" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+
 # Random olarak Cinsiyet seçimi yapılır.
 * "filtreCinsiyetChkbox" elementinin görünür olması kontrol edilir "30"
 * "filtreCinsiyetChkbox" elementinin tıklanabilir olması kontrol edilir
 * "filtreCinsiyetChkbox" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 
 # Random olarak Beden seçimi yapılır.
 * "filtreBedenChkbox" elementinin görünür olması kontrol edilir "30"
 * "filtreBedenChkbox" elementinin tıklanabilir olması kontrol edilir
 * "filtreBedenChkbox" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 
 # Random olarak Renk seçimi yapılır.
 * "filtreRenkChkbox" elementinin görünür olması kontrol edilir "30"
 * "filtreRenkChkbox" elementinin tıklanabilir olması kontrol edilir
 * "filtreRenkChkbox" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 
 # Random olarak Materyal seçimi yapılır.
 * "filtreMateryalChkbox" elementinin görünür olması kontrol edilir "30"
 * "filtreMateryalChkbox" elementinin tıklanabilir olması kontrol edilir
 * "filtreMateryalChkbox" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 
 # Random olarak Fiyat Aralığı seçimi yapılır.
 * "filtreFiyatAraligiChkbox" elementinin görünür olması kontrol edilir "30"
 * "filtreFiyatAraligiChkbox" elementinin tıklanabilir olması kontrol edilir
 * "filtreFiyatAraligiChkbox" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 
 # Random olarak İndirim Yüzdesi seçimi yapılır.
 * "filtreIndirimYuzdesiChkbox" elementinin görünür olması kontrol edilir "30"
 * "filtreIndirimYuzdesiChkbox" elementinin tıklanabilir olması kontrol edilir
 * "filtreIndirimYuzdesiChkbox" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+
+# Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
+* "filtrelemeSonrasiListelenenUrunler" elementinin görünür olması kontrol edilir "30"
+* "filtrelemeSonrasiListelenenUrunler" elementinin tıklanabilir olması kontrol edilir
+* "filtrelemeSonrasiListelenenUrunler" listesinden random olarak seçim yapılır
+* waitPageLoadCompleteJs
+
+# Ürün detay sayfasında element kontrolleri yapılır.
+* "urunDetayBrandNameTxtCrtl" elementinin görünür olması kontrol edilir "30"
+* "urunDetayProductNameTxtCrtl" elementinin görünür olması kontrol edilir "30"
+* "urunDetayFiyatTxtCrtl" elementinin görünür olması kontrol edilir "30"
+* "urunDetayIMGCrtl" elementinin görünür olması kontrol edilir "30"
+* "urunDetayRenkIMGCrtl" elementinin görünür olması kontrol edilir "30"
+ "urunDetayUrunAciklamasiCrtl" elementinin görünür olması kontrol edilir "30"
+* "urunDetayUrunOzellikleriTabloCrtl" elementinin görünür olması kontrol edilir "30"
+* "urunDetaySaticiHakkindaTitleCrtl" elementinin görünür olması kontrol edilir "30"
+* "urunDetaySaticiHakkindaDetayCrtl" elementinin görünür olması kontrol edilir "30"
+* "randomBedenSecimBox" elementinin görünür olması kontrol edilir "30"
+* "urunDetaySatinAlBtn" elementinin görünür olması kontrol edilir "30"

@@ -26,32 +26,37 @@
   },
   {
     "key": "randomRenkSecimBtn",
-    "value": ".product-options-list>li>a>img",
+    "value": "img[class='detail__colors-image']",
     "type": "css"
   },
   {
-    "key": "randomBedenSecimBtn",
-    "value": ".product-options-list.list-inline.size>li[class=' ']",
+    "key": "randomBedenSecimBox",
+    "value": "select[class='js-select-size-options']",
     "type": "css"
   },
   {
-    "key": "sepeteEkleBtn",
-    "value": "add2cart",
+    "key": "randomBedenSecimOption",
+    "value": "select[class='js-select-size-options']>option",
+    "type": "css"
+  },
+  {
+    "key": "filtrelemeSonrasiListelenenUrunler",
+    "value": "div[class='js-product-vertical col-6 col-lg-4 listing__col-product']",
+    "type": "css"
+  },
+  {
+    "key": "urunDetaySatinAlBtn",
+    "value": "goto-main-web",
     "type": "id"
   },
   {
-    "key": "favorilerimeEkleCikarBtn",
-    "value": ".btn.btn-link.btn-block",
-    "type": "css"
+    "key": "",
+    "value": "",
+    "type": ""
   },
   {
-    "key": "popupSepeteGitBtn",
-    "value": "(//a[text()='SEPETE GİT'])[4]",
-    "type": "xpath"
-  },
-  {
-    "key": "popupAlisveriseDevamEtBtn",
-    "value": "(//a[text()='ALIŞVERİŞE DEVAM ET'])[2]",
-    "type": "xpath"
+    "key": "",
+    "value": "",
+    "type": ""
   }
 ]
