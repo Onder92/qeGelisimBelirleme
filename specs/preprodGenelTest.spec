@@ -1,6 +1,6 @@
 Specification Heading
 =====================
-Created by onderyerim on 23.09.2022
+Created by onderyerim on 27.09.2022
 
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
@@ -22,13 +22,14 @@ Anasayfadaki -Kadın- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ür�
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Erkek- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 3
@@ -40,13 +41,14 @@ Anasayfadaki -Erkek- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürü
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Çocuk- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 4
@@ -58,13 +60,14 @@ Anasayfadaki -Çocuk- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ür�
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Spor- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 5
@@ -76,13 +79,14 @@ Anasayfadaki -Spor- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Aksesuar- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 6
@@ -94,13 +98,14 @@ Anasayfadaki -Aksesuar- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ü
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Giyim- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 7
@@ -112,13 +117,14 @@ Anasayfadaki -Giyim- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürü
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Outlet- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 8
@@ -130,13 +136,14 @@ Anasayfadaki -Outlet- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ür�
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 9
@@ -148,13 +155,14 @@ Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapı
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Search Box'tan Ürün Aratılır, Random Olarak Ürün Seçilir ve Satın Alma İçin Flo'ya Aktarıldığı Kontrol Edilir. / Case 10
@@ -167,6 +175,7 @@ Search Box'tan Ürün Aratılır, Random Olarak Ürün Seçilir ve Satın Alma �
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki Müşteri Hizmetleri -Yardım- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 11
