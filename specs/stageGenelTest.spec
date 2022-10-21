@@ -13,6 +13,7 @@ Anasayfadaki Elementlerin Kontrolleri Yapılır. / Case 1
 * Anasayfada swiper ve bannerların görünür olduğu kontrol edilir.
 * Anasayfada footerların görünür olduğu kontrol edilir.
 
+
 Anasayfadaki -Kadın- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 2
 ----------------
 * Otomasyon ortamı otomatik olarak ayarlanır.
