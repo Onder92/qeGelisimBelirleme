@@ -2,5 +2,7 @@
 .idea
 logs
 reports
+out
+csvFiles
 target
 src/test/resources/Configuration.properties
