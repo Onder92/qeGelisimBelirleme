@@ -1,5 +1,5 @@
 # Otomasyon ortamı otomatik olarak ayarlanır.
-* "1" saniye bekle
+* "2" saniye bekle
 * "bbmSifreGirisTxt" elementi görünürse, "bbmSifreGirisTxt" elementine "bbm2021" değerini yaz ve entere bas
  "cookieKabulEdiyorumBtn" elementinin görünür olması kontrol edilir "30"
  "cookieKabulEdiyorumBtn" elementine tıkla

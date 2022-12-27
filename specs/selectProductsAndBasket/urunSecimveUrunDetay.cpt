@@ -57,5 +57,5 @@ This is a concept file with following syntax for each concept.
 * Şu anki url "flo.com.tr/urun/" içeriyor mu
 
 # Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
-* "urunDetayProductNameFloCtrl" elementinin text değeri "urunDetayProductNameKeyValue" değerine eşit mi
+ "urunDetayProductNameFloCtrl" elementinin text değeri "urunDetayProductNameKeyValue" değerine eşit mi
 * waitPageLoadCompleteJs
