@@ -7,6 +7,7 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
      
 Case 1
 ----------------
+tags:case1
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Ürün Listeleme Sayfası Filtre Kontrolü
 
