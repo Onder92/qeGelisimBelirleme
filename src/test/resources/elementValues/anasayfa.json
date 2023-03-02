@@ -64,6 +64,11 @@
     "type": "xpath"
   },
   {
+    "key": "anasayfaIndirimKategoriBtn",
+    "value": "//span[text()='İndirim']",
+    "type": "xpath"
+  },
+  {
     "key": "anasayfaTumkategorilerKategoriBtn",
     "value": "//span[text()='Tüm Kategoriler']",
     "type": "xpath"

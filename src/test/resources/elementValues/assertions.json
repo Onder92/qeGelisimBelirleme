@@ -165,6 +165,11 @@
     "type": "css"
   },
   {
+    "key": "indirimKategoriFilterCtrl",
+    "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/indirim']",
+    "type": "css"
+  },
+  {
     "key": "tumkategorilerKategoriFilterCtrl",
     "value": "div[class='breadcrumb d-none d-lg-flex']>a[href='/tum-kategoriler']",
     "type": "css"
@@ -176,7 +181,7 @@
   },
   {
     "key": "urunDetayProductNameFloCtrl",
-    "value": "h1[class='product__name description text-capital text-capitalize order-1 js-product-name']",
+    "value": "h1[class='product__name description text-capitalize text-capitalize js-product-name']",
     "type": "css"
   },
   {

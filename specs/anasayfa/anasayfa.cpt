@@ -69,6 +69,13 @@ This is a concept file with following syntax for each concept.
 * "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
 * "outletKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
 
+# Anasayfadan -İndirim- kategorisine tıklanır.
+* "anasayfaIndirimKategoriBtn" elementinin görünür olması kontrol edilir "30"
+* "anasayfaIndirimKategoriBtn" elementinin tıklanabilir olması kontrol edilir
+* "anasayfaIndirimKategoriBtn" elementine tıkla
+* "yukleniyorMessageCtrl2" elementinin görünür olmadığı kontrol edilir
+* "indirimKategoriFilterCtrl" elementinin görünür olması kontrol edilir "30"
+
 # Anasayfadan -Tüm Kategoriler- kategorisine tıklanır.
 * "anasayfaTumkategorilerKategoriBtn" elementinin görünür olması kontrol edilir "30"
 * "anasayfaTumkategorilerKategoriBtn" elementinin tıklanabilir olması kontrol edilir
