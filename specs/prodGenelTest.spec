@@ -121,23 +121,23 @@ Anasayfadaki -Giyim- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürü
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
-Anasayfadaki -Outlet- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 8
+Anasayfadaki -İndirim- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 8
 ----------------
 * Otomasyon ortamı otomatik olarak ayarlanır.
-* Anasayfadan -Outlet- kategorisine tıklanır.
-* -Outlet- filtresi uygulandığı kontrol edilir.
-* Listelenen ürünler random olarak sıralanır.
-* Random olarak Cinsiyet seçimi yapılır.
-* Check box'tan random olarak Beden seçimi yapılır.
-* Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
-* Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
-* Ürün detay sayfasında element kontrolleri yapılır.
-* Seçilen ürünün detaylı adı kaydedilir.
-* Seçilen üründe Satın Al butonuna tıklanır.
-* Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
+ Anasayfadan -Outlet- kategorisine tıklanır.
+ -Outlet- filtresi uygulandığı kontrol edilir.
+ Listelenen ürünler random olarak sıralanır.
+ Random olarak Cinsiyet seçimi yapılır.
+ Check box'tan random olarak Beden seçimi yapılır.
+ Random olarak Renk seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
+ Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
+ Ürün detay sayfasında element kontrolleri yapılır.
+ Seçilen ürünün detaylı adı kaydedilir.
+ Seçilen üründe Satın Al butonuna tıklanır.
+ Flo ürün detay sayfasına aktarıldığı kontrol edilir.
+ Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 9
 ----------------
