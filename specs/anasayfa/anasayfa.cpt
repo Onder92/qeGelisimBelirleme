@@ -10,7 +10,6 @@ This is a concept file with following syntax for each concept.
 # Anasayfada mega menülerin görünür olduğu kontrol edilir.
 * "anasayfaKategorilerConteinerCtrl" elementinin görünür olması kontrol edilir "30"
 
-
 # Anasayfada swiper ve bannerların görünür olduğu kontrol edilir.
 * "anasayfaSwiperIMGCtrl" elementinin görünür olması kontrol edilir "30"
 * "anasayfaBannerKategoriCtrl" elementinin görünür olması kontrol edilir "30"

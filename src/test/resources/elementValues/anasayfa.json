@@ -38,7 +38,8 @@
     "key": "anasayfaErkekKategoriBtn",
     "value": "(//span[text()='Erkek'])[2]",
     "type": "xpath"
-  },  {
+  },
+  {
     "key": "anasayfaCocukKategoriBtn",
     "value": "(//span[text()='Çocuk'])[2]",
     "type": "xpath"
