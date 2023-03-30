@@ -181,7 +181,7 @@
   },
   {
     "key": "urunDetayProductNameFloCtrl",
-    "value": "h1[class='product__name description text-capitalize text-capitalize js-product-name']",
+    "value": "h1[class='product__name description text-capital text-capitalize js-product-name']",
     "type": "css"
   },
   {
