@@ -5,6 +5,9 @@ Created by onderyerim on 23.09.2022
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
+
+tags:prodGenelTest
+
 Anasayfadaki Elementlerin Kontrolleri Yapılır. / Case 1
 -------------
 * Otomasyon ortamı otomatik olarak ayarlanır.
