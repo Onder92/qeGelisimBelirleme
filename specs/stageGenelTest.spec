@@ -9,7 +9,7 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
 
 Anasayfadaki Elementlerin Kontrolleri Yapılır. / Case 1
 -------------
-tags: AnasayfadakiElementlerinKontrolleriYapilir_Case1
+tags: stageAnasayfadakiElementlerinKontrolleriYapilir_Case1
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfada header ve search box görünür olduğu kontrol edilir.
@@ -20,7 +20,7 @@ tags: AnasayfadakiElementlerinKontrolleriYapilir_Case1
 
 Anasayfadaki -Kadın- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 2
 ----------------
-tags: Anasayfadaki_Kadin_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case2
+tags: stageAnasayfadaki_Kadin_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case2
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Kadın- kategorisine tıklanır.
@@ -41,7 +41,7 @@ tags: Anasayfadaki_Kadin_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySay
 
 Anasayfadaki -Erkek- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 3
 ----------------
-tags: Anasayfadaki_Erkek_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case3
+tags: stageAnasayfadaki_Erkek_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case3
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Erkek- kategorisine tıklanır.
@@ -62,7 +62,7 @@ tags: Anasayfadaki_Erkek_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySay
 
 Anasayfadaki -Çocuk- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 4
 ----------------
-tags: Anasayfadaki_Cocuk_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case4
+tags: stageAnasayfadaki_Cocuk_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case4
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Çocuk- kategorisine tıklanır.
@@ -83,7 +83,7 @@ tags: Anasayfadaki_Cocuk_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySay
 
 Anasayfadaki -Spor- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 5
 ----------------
-tags: Anasayfadaki_Spor_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case5
+tags: stageAnasayfadaki_Spor_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case5
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Spor- kategorisine tıklanır.
@@ -104,7 +104,7 @@ tags: Anasayfadaki_Spor_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayf
 
 Anasayfadaki -Aksesuar- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 6
 ----------------
-tags: Anasayfadaki_Aksasuar_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case6
+tags: stageAnasayfadaki_Aksasuar_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case6
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Aksesuar- kategorisine tıklanır.
@@ -125,7 +125,7 @@ tags: Anasayfadaki_Aksasuar_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetay
 
 Anasayfadaki -Giyim- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 7
 ----------------
-tags: Anasayfadaki_Giyim_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case7
+tags: stageAnasayfadaki_Giyim_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case7
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Giyim- kategorisine tıklanır.
@@ -146,7 +146,7 @@ tags: Anasayfadaki_Giyim_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySay
 
 Anasayfadaki -Outlet- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 8
 ----------------
-tags: Anasayfadaki_Outlet_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case8
+tags: stageAnasayfadaki_Outlet_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case8
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Outlet- kategorisine tıklanır.
 * -Outlet- filtresi uygulandığı kontrol edilir.
@@ -166,7 +166,7 @@ tags: Anasayfadaki_Outlet_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySa
 
 Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 9
 ----------------
-tags: Anasayfadaki_TumKategoriler_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case9
+tags: stageAnasayfadaki_TumKategoriler_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case9
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Tüm Kategoriler- kategorisine tıklanır.
@@ -187,7 +187,7 @@ tags: Anasayfadaki_TumKategoriler_KategorisineTiklanirRandomFiltrelemeYapilirUru
 
 Search Box'tan Ürün Aratılır, Random Olarak Ürün Seçilir ve Satın Alma İçin Flo'ya Aktarıldığı Kontrol Edilir. / Case 10
 ----------------
-tags: SearchBoxtanUrunAratilirRandomOlarakUrunSecilirVeSatinAlmaİcinFloyaAktarildigiKontrolEdilir_Case10
+tags: stageSearchBoxtanUrunAratilirRandomOlarakUrunSecilirVeSatinAlmaİcinFloyaAktarildigiKontrolEdilir_Case10
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Searchbox'ta arama yapılır.
@@ -202,7 +202,7 @@ tags: SearchBoxtanUrunAratilirRandomOlarakUrunSecilirVeSatinAlmaİcinFloyaAktari
 
 Anasayfadaki Müşteri Hizmetleri -Yardım- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 11
 ------------
-tags: AnasayfadakiMusteriHizmetleri_Yardim_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case11
+tags: stageAnasayfadakiMusteriHizmetleri_Yardim_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case11
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan Müşteri Hizmetleri -Yardım- butonuna tıklanır.
@@ -210,7 +210,7 @@ tags: AnasayfadakiMusteriHizmetleri_Yardim_ButonununIlgiliSayfayaYonlendirdigiKo
 
 Anasayfadaki Müşteri Hizmetleri -Gizlilik ve Çerez Politikası- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 12
 ------------
-tags: AnasayfadakiMusteriHizmetleri_GizlilikVeCerezPolitikasi_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case12
+tags: stageAnasayfadakiMusteriHizmetleri_GizlilikVeCerezPolitikasi_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case12
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan Müşteri Hizmetleri -Gizlilik ve Çerez Politikası- butonuna tıklanır.
@@ -218,7 +218,7 @@ tags: AnasayfadakiMusteriHizmetleri_GizlilikVeCerezPolitikasi_ButonununIlgiliSay
 
 Anasayfadaki Müşteri Hizmetleri -Kişisel Verilerin Korunması- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 13
 ------------
-tags: AnasayfadakiMusteriHizmetleri_KisiselVerilerinKorunmasi_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case13
+tags: stageAnasayfadakiMusteriHizmetleri_KisiselVerilerinKorunmasi_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case13
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan Müşteri Hizmetleri -Kişisel Verilerin Korunması- butonuna tıklanır.
@@ -226,7 +226,7 @@ tags: AnasayfadakiMusteriHizmetleri_KisiselVerilerinKorunmasi_ButonununIlgiliSay
 
 Anasayfadaki Müşteri Hizmetleri -Kurumsal- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 14
 ------------
-tags: AnasayfadakiMusteriHizmetleri_Kurumsal_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case14
+tags: stageAnasayfadakiMusteriHizmetleri_Kurumsal_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case14
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan Müşteri Hizmetleri -Kurumsal- butonuna tıklanır.
@@ -234,7 +234,7 @@ tags: AnasayfadakiMusteriHizmetleri_Kurumsal_ButonununIlgiliSayfayaYonlendirdigi
 
 Anasayfadaki Müşteri Hizmetleri -Mağazalarımız- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 15
 ------------
-tags: AnasayfadakiMusteriHizmetleri_Magazalarimiz_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case15
+tags: stageAnasayfadakiMusteriHizmetleri_Magazalarimiz_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case15
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan Müşteri Hizmetleri -Mağazalarımız- butonuna tıklanır.
@@ -242,7 +242,7 @@ tags: AnasayfadakiMusteriHizmetleri_Magazalarimiz_ButonununIlgiliSayfayaYonlendi
 
 Anasayfadaki Müşteri Hizmetleri -İletişim- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 16
 ------------
-tags: AnasayfadakiMusteriHizmetleri_Iletisim_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case16
+tags: stageAnasayfadakiMusteriHizmetleri_Iletisim_ButonununIlgiliSayfayaYonlendirdigiKontrolEdilir_Case16
 
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan Müşteri Hizmetleri -İletişim- butonuna tıklanır.
