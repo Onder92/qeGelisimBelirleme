@@ -1,0 +1,71 @@
+Created by onderyerim on 17.04.2023
+
+This is a concept file with following syntax for each concept.
+
+# Yardım linkine tıklanır.
+* "musteriHizmetleriYardim" elementinin görünür olması kontrol edilir "30"
+* "musteriHizmetleriYardim" elementinin tıklanabilir olması kontrol edilir "30"
+* "musteriHizmetleriYardim" elementine tıkla
+
+# Yardım sayfasında kontroller yapılır.
+* Şu anki url "flo.com.tr/page?url=kurumsal-iletisim" içeriyor mu
+* "yardimBiziAraBtnCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Gizlilik ve Çerez Politikası linkine tıklanır.
+* "musteriHizmetleriGizlilikVeCerezPolitikasi" elementinin görünür olması kontrol edilir "30"
+* "musteriHizmetleriGizlilikVeCerezPolitikasi" elementinin tıklanabilir olması kontrol edilir "30"
+* "musteriHizmetleriGizlilikVeCerezPolitikasi" elementine tıkla
+
+# Gizlilik ve Çerez Politikası sayfasında kontroller yapılır.
+* Şu anki url "kinetix.com.tr/page?url=gizlilik-ve-cerez" içeriyor mu
+* "gizlilikVeCerezPolitikasiUrlCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Kişisel Verilerin Korunması linkine tıklanır.
+* "musteriHizmetleriKisiselVerilerinKorunmasi" elementinin görünür olması kontrol edilir "30"
+* "musteriHizmetleriKisiselVerilerinKorunmasi" elementinin tıklanabilir olması kontrol edilir "30"
+* "musteriHizmetleriKisiselVerilerinKorunmasi" elementine tıkla
+
+# Kişisel Verilerin Korunması sayfasında kontroller yapılır.
+* Şu anki url "kinetix.com.tr/page?url=kisisel-verilerin-korunmasi" içeriyor mu
+* "kisiselVerilerinKorunmasiBarTitleCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Kurumsal linkine tıklanır.
+* "musteriHizmetleriKurumsal" elementinin görünür olması kontrol edilir "30"
+* "musteriHizmetleriKurumsal" elementinin tıklanabilir olması kontrol edilir "30"
+* "musteriHizmetleriKurumsal" elementine tıkla
+
+# Kurumsal sayfasında kontroller yapılır.
+* "kurumsalBarCtrl" elementinin görünür olması kontrol edilir "30"
+* "kurumsalMarkalarimizImgCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Mağazalarımız linkine tıklanır.
+* "musteriHizmetleriMagazalarimiz" elementinin görünür olması kontrol edilir "30"
+* "musteriHizmetleriMagazalarimiz" elementinin tıklanabilir olması kontrol edilir "30"
+* "musteriHizmetleriMagazalarimiz" elementine tıkla
+
+# Mağazalarımız sayfasında searchten arama yapılır ve kontrol edilir.
+* "magazalarimizMagazaSearch" elementinin tıklanabilir olması kontrol edilir "30"
+* "magazalarimizMagazaSearch" elementine "marmara" değerini yaz
+* "magazalarimizMarmaraForumBaslikCtrl" elementinin görünür olması kontrol edilir "30"
+
+# Mağazalarımız sayfasında il ilçe girilir ve kontrol edilir.
+* "magazalarimizMagazaIlBox" elementinin tıklanabilir olması kontrol edilir "30"
+* "magazalarimizMagazaIlBox" elementine tıkla
+* "magazalarimizMagazaIlDrp" elementinin tıklanabilir olması kontrol edilir "30"
+* "magazalarimizMagazaIlDrp" elementine tıkla
+* "magazalarimizMagazaIlceBox" elementinin tıklanabilir olması kontrol edilir "30"
+* "magazalarimizMagazaIlceBox" elementine tıkla
+* "magazalarimizMagazaIlceDrp" elementinin tıklanabilir olması kontrol edilir "30"
+* "magazalarimizMagazaIlceDrp" elementine tıkla
+* "magazalarimizCapacityAVMBaslikCtrl" elementinin görünür olması kontrol edilir "30"
+
+# İletişim linkine tıklanır.
+* "1100" milisaniye bekle
+* "yukleniyorMessageCtrl" elementinin var olmadığı kontrol edilir
+* "musteriHizmetleriIletişim" elementinin görünür olması kontrol edilir "30"
+* "musteriHizmetleriIletişim" elementinin tıklanabilir olması kontrol edilir "30"
+* "musteriHizmetleriIletişim" elementine tıkla
+
+# İletişim sayfasında kontroller yapılır.
+* Şu anki url "flo.com.tr/page?url=kurumsal-iletisim" içeriyor mu
+* "yardimBiziAraBtnCtrl" elementinin görünür olması kontrol edilir "30"

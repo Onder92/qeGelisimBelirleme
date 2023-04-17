@@ -103,5 +103,35 @@
     "key": "anasayfaIletisimBtn",
     "value": "//a[text()='İletişim']",
     "type": "xpath"
+  },
+  {
+    "key": "musteriHizmetleriGizlilikVeCerezPolitikasi",
+    "value": "//*[text()='Gizlilik ve Çerez Politikası']",
+    "type": "xpath"
+  },
+  {
+    "key": "musteriHizmetleriYardim",
+    "value": "//a[text()='Yardım']",
+    "type": "xpath"
+  },
+  {
+    "key": "musteriHizmetleriKisiselVerilerinKorunmasi",
+    "value": "//*[text()='Kişisel Verilerin Korunması']",
+    "type": "xpath"
+  },
+  {
+    "key": "musteriHizmetleriKurumsal",
+    "value": "//*[text()='Kurumsal']",
+    "type": "xpath"
+  },
+  {
+    "key": "musteriHizmetleriMagazalarimiz",
+    "value": "//*[text()='Mağazalarımız']",
+    "type": "xpath"
+  },
+  {
+    "key": "musteriHizmetleriIletişim",
+    "value": "//*[text()='İletişim']",
+    "type": "xpath"
   }
 ]

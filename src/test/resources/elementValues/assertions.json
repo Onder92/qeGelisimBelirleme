@@ -215,8 +215,38 @@
     "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "gizlilikVeCerezPolitikasiUrlCtrl",
+    "value": "(//a[@href='https://www.flo.com.tr/kisisel-verilerin-korunmasi'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "yardimBiziAraBtnCtrl",
+    "value": "//*[text()='Bizi Ara ']",
+    "type": "xpath"
+  },
+  {
+    "key": "kisiselVerilerinKorunmasiBarTitleCtrl",
+    "value": "div[class='breadcrumbs-bar title-only mt-3']",
+    "type": "css"
+  },
+  {
+    "key": "kurumsalBarCtrl",
+    "value": "div[class='row justify-content-center']",
+    "type": "css"
+  },
+  {
+    "key": "magazalarimizMarmaraForumBaslikCtrl",
+    "value": "//h4[text()='Marmara Forum FLO']",
+    "type": "xpath"
+  },
+  {
+    "key": "magazalarimizCapacityAVMBaslikCtrl",
+    "value": "//h4[text()='Capacity Avm FLO']",
+    "type": "xpath"
+  },
+  {
+    "key": "kurumsalMarkalarimizImgCtrl",
+    "value": "a[class='img-hover']",
+    "type": "css"
   }
 ]
