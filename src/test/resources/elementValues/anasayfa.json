@@ -31,48 +31,48 @@
   },
   {
     "key": "anasayfaKadinKategoriBtn",
-    "value": "(//span[text()='Kadın'])[2]",
-    "type": "xpath"
+    "value": "a[data-name='Kadın']",
+    "type": "css"
   },
   {
     "key": "anasayfaErkekKategoriBtn",
-    "value": "(//span[text()='Erkek'])[2]",
-    "type": "xpath"
+    "value": "a[data-name='Erkek']",
+    "type": "css"
   },
   {
     "key": "anasayfaCocukKategoriBtn",
-    "value": "(//span[text()='Çocuk'])[2]",
-    "type": "xpath"
+    "value": "a[data-name='Çocuk']",
+    "type": "css"
   },
   {
     "key": "anasayfaSporKategoriBtn",
-    "value": "//span[text()='Spor']",
-    "type": "xpath"
+    "value": "a[data-name='Spor']",
+    "type": "css"
   },
   {
     "key": "anasayfaAksesuarKategoriBtn",
-    "value": "(//span[text()='Aksesuar'])[4]",
-    "type": "xpath"
+    "value": "a[data-name='Aksesuar']",
+    "type": "css"
   },
   {
     "key": "anasayfaGiyimKategoriBtn",
-    "value": "(//span[text()='Giyim'])[5]",
-    "type": "xpath"
+    "value": "a[data-name='Giyim']",
+    "type": "css"
   },
   {
     "key": "anasayfaOutletKategoriBtn",
-    "value": "//span[text()='Outlet']",
-    "type": "xpath"
+    "value": "a[data-name='Outlet']",
+    "type": "css"
   },
   {
     "key": "anasayfaIndirimKategoriBtn",
-    "value": "//span[text()='İndirim']",
-    "type": "xpath"
+    "value": "a[data-name='İndirim']",
+    "type": "css"
   },
   {
     "key": "anasayfaTumkategorilerKategoriBtn",
-    "value": "//span[text()='Tüm Kategoriler']",
-    "type": "xpath"
+    "value": "a[data-name='Tüm Kategoriler']",
+    "type": "css"
   },
   {
     "key": "anasayfaMusteriHizmetleriYardimBtn",
