@@ -151,7 +151,7 @@ tags: prodAnasayfadaki_İndirim_KategorisineTiklanirRandomFiltrelemeYapilirUrunD
 
 Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 9
 ----------------
-tags: Anasayfadaki_TumKategoriler_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case9
+tags: prodAnasayfadaki_TumKategoriler_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case9
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan -Tüm Kategoriler- kategorisine tıklanır.
 * -Tüm Kategoriler- filtresi uygulandığı kontrol edilir.

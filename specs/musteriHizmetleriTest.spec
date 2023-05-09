@@ -42,7 +42,7 @@ tags:musteriHizmetleriAnasayfada_MusteriHizmetleri_Alaninda_Magazalarimiz_Sayfas
 * Mağazalarımız sayfasında searchten arama yapılır ve kontrol edilir.
 * Mağazalarımız sayfasında il ilçe girilir ve kontrol edilir.
 
-Üye Girişi Sonrası Anasayfada -Müşteri Hizmetleri- Alanında -İletişim- Sayfası Kontrol Edilir / Case 6
+Anasayfada -Müşteri Hizmetleri- Alanında -İletişim- Sayfası Kontrol Edilir / Case 6
 -------------
 tags:musteriHizmetleriUyeGirisiSonrasiAnasayfada_MusteriHizmetleri_Alaninda_Iletisim_SayfasiKontrolEdilir_Case6
 
