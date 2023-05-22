@@ -44,8 +44,8 @@ tags: prodAnasayfadaki_Erkek_KategorisineTiklanirRandomFiltrelemeYapilirUrunDeta
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
@@ -63,8 +63,8 @@ tags: prodAnasayfadaki_Cocuk_KategorisineTiklanirRandomFiltrelemeYapilirUrunDeta
 * Random olarak Cinsiyet seçimi yapılır.
 * Check box'tan random olarak Beden seçimi yapılır.
 * Random olarak Renk seçimi yapılır.
-* Random olarak Materyal seçimi yapılır.
-* Random olarak İndirim Yüzdesi seçimi yapılır.
+ Random olarak Materyal seçimi yapılır.
+ Random olarak İndirim Yüzdesi seçimi yapılır.
 * Filtreleme sonrası listelenen ürünlerden random seçim yapılır.
 * Ürün detay sayfasında element kontrolleri yapılır.
 * Seçilen ürünün detaylı adı kaydedilir.
