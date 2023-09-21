@@ -61,13 +61,13 @@
   },
   {
     "key": "urunDetayUrunAciklamasiCrtl",
-    "value": "div[class='detail__description']",
-    "type": "css"
+    "value": "//*[text()='Ürün Açıklaması ']",
+    "type": "xpath"
   },
   {
     "key": "urunDetayUrunOzellikleriTabloCrtl",
-    "value": "div[class='row detail__properties']",
-    "type": "css"
+    "value": "(//*[text()='Ürün Özellikleri ']",
+    "type": "xpath"
   },
   {
     "key": "urunDetaySaticiHakkindaTitleCrtl",
