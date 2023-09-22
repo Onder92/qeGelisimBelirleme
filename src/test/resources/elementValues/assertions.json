@@ -66,8 +66,8 @@
   },
   {
     "key": "urunDetayUrunOzellikleriTabloCrtl",
-    "value": "(//*[text()='Ürün Özellikleri ']",
-    "type": "xpath"
+    "value": "div[class='collapsible--detail__section-title js-collapsible-trigger']",
+    "type": "css"
   },
   {
     "key": "urunDetaySaticiHakkindaTitleCrtl",
