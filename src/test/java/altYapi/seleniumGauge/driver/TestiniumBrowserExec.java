@@ -39,13 +39,7 @@ public class TestiniumBrowserExec {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("key", key);
 
-        String PROXY = "ec2-54-154-66-64.eu-west-1.compute.amazonaws.com:3128";
-        Proxy proxy = new Proxy();
-        proxy.setProxyType(Proxy.ProxyType.MANUAL);
-        proxy.setHttpProxy(PROXY);
-        proxy.setFtpProxy(PROXY);
-        proxy.setSslProxy(PROXY);
-        capabilities.setCapability(CapabilityType.PROXY, proxy);
+
 
         //logger.info(System.getenv().toString());
         /**Properties properties = System.getProperties();
