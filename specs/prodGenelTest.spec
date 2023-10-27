@@ -15,7 +15,7 @@ tags: prodAnasayfadakiElementlerinKontrolleriYapilir_Case1
 * Anasayfada swiper ve bannerların görünür olduğu kontrol edilir.
 * Anasayfada footerların görünür olduğu kontrol edilir.
 
-Anasayfadaki -Kadın- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 2
+Ana sayfadaki -Kadın- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 2
 ----------------
 tags: prodAnasayfadaki_Kadin_KategorisineTiklanirRandomFiltrelemeYapilirUrunDetaySayfasindaElementKontrolleriYapilir_Case2
 * Otomasyon ortamı otomatik olarak ayarlanır.
