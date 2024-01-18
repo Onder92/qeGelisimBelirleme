@@ -8,6 +8,7 @@ import com.github.javafaker.Faker;
 import com.thoughtworks.gauge.Step;
 import org.apache.bcel.generic.Select;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
@@ -677,6 +678,14 @@ public class StepImplementation {
         String text;
         text = ConfigurationProp.getString("productSearch").endsWith("KeyValue") ? Driver.TestMap.get(ConfigurationProp.getString("productSearch")).toString() : ConfigurationProp.getString("productSearch");
         methods.sendKeys(methods.getBy(key), text);
+    }
+
+    @Step("Shadow root cookie kapatılır")
+    public void shadowRootClickElementWithJs(){
+
+        JavascriptExecutor jse=(JavascriptExecutor)driver;
+        WebElement element =(WebElement)jse.executeScript("return document.querySelector('body > efilli-layout-dynamic').shadowRoot.querySelector('#eefe4907-e404-4da1-923b-7787d076df08')");
+        ((JavascriptExecutor)driver).executeScript("arguments[0].click()",element);
     }
 
     @Step("<key> elementi görünürse, <element> elementli searchbox'a dinamik değer yaz ve entere bas")

@@ -4,6 +4,7 @@
  "cookieKabulEdiyorumBtn" elementinin görünür olması kontrol edilir "30"
  "cookieKabulEdiyorumBtn" elementine tıkla
 * "cookieKabulEdiyorumBtn" elementi görünürse, "cookieKabulEdiyorumBtn" elementine tıkla
+* Shadow root cookie kapatılır
 
 # -STAGE- search kullanımı
 * waitPageLoadCompleteJs
