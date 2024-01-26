@@ -146,7 +146,6 @@ tags: prodAnasayfadaki_İndirim_KategorisineTiklanirRandomFiltrelemeYapilirUrunD
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 9

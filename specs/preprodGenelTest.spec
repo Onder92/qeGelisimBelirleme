@@ -34,7 +34,6 @@ tags: preprodAnasayfadaki_Kadin_KategorisineTiklanirRandomFiltrelemeYapilirUrunD
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Erkek- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 3
@@ -55,7 +54,6 @@ tags: preprodAnasayfadaki_Erkek_KategorisineTiklanirRandomFiltrelemeYapilirUrunD
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Çocuk- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 4
@@ -76,7 +74,6 @@ tags: preprodAnasayfadaki_Cocuk_KategorisineTiklanirRandomFiltrelemeYapilirUrunD
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Spor- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 5
@@ -97,7 +94,6 @@ tags: preprodAnasayfadaki_Spor_KategorisineTiklanirRandomFiltrelemeYapilirUrunDe
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Aksesuar- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 6
@@ -118,7 +114,6 @@ tags: preprodAnasayfadaki_Aksasuar_KategorisineTiklanirRandomFiltrelemeYapilirUr
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Giyim- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 7
@@ -139,7 +134,6 @@ tags: preprodAnasayfadaki_Giyim_KategorisineTiklanirRandomFiltrelemeYapilirUrunD
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -İndirim- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 8
@@ -160,7 +154,6 @@ tags: preprodAnasayfadaki_İndirim_KategorisineTiklanirRandomFiltrelemeYapilirUr
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki -Tüm Kategoriler- Kategorisine Tıklanır, Random Filtreleme Yapılır, Ürün Detay Sayfasında Element Kontrolleri Yapılır. / Case 9
@@ -181,7 +174,6 @@ tags: preprodAnasayfadaki_TumKategoriler_KategorisineTiklanirRandomFiltrelemeYap
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Search Box'tan Ürün Aratılır, Random Olarak Ürün Seçilir ve Satın Alma İçin Flo'ya Aktarıldığı Kontrol Edilir. / Case 10
@@ -196,7 +188,6 @@ tags: preprodSearchBoxtanUrunAratilirRandomOlarakUrunSecilirVeSatinAlmaİcinFloy
 * Seçilen ürünün detaylı adı kaydedilir.
 * Seçilen üründe Satın Al butonuna tıklanır.
 * Flo ürün detay sayfasına aktarıldığı kontrol edilir.
-* Otomasyon ortamı otomatik olarak ayarlanır.
 * Yönlendirilen sayfada ürünün aynı olduğu kontrol edilir.
 
 Anasayfadaki Müşteri Hizmetleri -Yardım- Butonunun İlgili Sayfaya Yönlendirdiği Kontrol Edilir. / Case 11
