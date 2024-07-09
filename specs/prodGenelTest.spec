@@ -221,3 +221,4 @@ tags: prodAnasayfadakiMusteriHizmetleri_Iletisim_ButonununIlgiliSayfayaYonlendir
 * Otomasyon ortamı otomatik olarak ayarlanır.
 * Anasayfadan Müşteri Hizmetleri -İletişim- butonuna tıklanır.
 * -İletişim- butonunun doğru sayfaya yönlendirdiği kontrol edilir.
+
