@@ -181,8 +181,8 @@
   },
   {
     "key": "urunDetayProductNameFloCtrl",
-    "value": "h1[class='product__name description text-capital text-capitalize js-product-name']",
-    "type": "css"
+    "value": "(//span[@class='js-product-name'])[1]",
+    "type": "xpath"
   },
   {
     "key": "musteriHizmetleriYardimSayfaCtrl",
