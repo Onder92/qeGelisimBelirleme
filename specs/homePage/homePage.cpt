@@ -1,0 +1,29 @@
+Created by onderyerim on 11.01.2025
+
+This is a concept file with following syntax for each concept.
+
+# Ana sayfadaki tablonun elementleri kontrol edilir.
+* "homePageTableCompanyNameColumn" elementinin görünür olduğunu kontrol et
+
+# Ana sayfadaki Open Money Transfer butonu görünür olduğu kontrol edilir.
+* "openMoneyTransferButton" elementinin görünür olduğunu kontrol et
+
+# Open Money Transfer butonuna tıklanır.
+* "openMoneyTransferButton" elementine tıkla
+* "2" saniye bekle
+
+# Transfer Money butonuna tıklanır.
+* "transferMoneyButton" elementine tıkla
+* "2" saniye bekle
+
+# Add Money butonuna tıklanır.
+* "addMoneyButton" elementine tıkla
+* "2" saniye bekle
+
+# Edit Account butonuna tıklanır.
+* "editAccountButton" elementine tıkla
+* "2" saniye bekle
+
+# Son yatırılan miktarın, hesaba yatan para <amount> ile aynı olduğu kontrol edilir.
+* "2" saniye bekle
+* <amount> elementinin görünür olduğunu kontrol et
