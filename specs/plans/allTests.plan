@@ -1,0 +1,16 @@
+# Tüm testleri sırasıyla çalıştırır
+allTest.spec
+
+# Login ve ana sayfa kontrolleri
+Login Olunduğu Kontrol Edilir / Case 1
+Ana Sayfadaki Elementlerin Kontrolü Yapılır / Case 2
+
+# Fonksiyonel testler
+Hesaba Kredi Kartı ile Para Yüklenir ve Doğru Miktarın Hesaba Yüklendiği Kontrol Edilir / Case 3
+Hesap Adı Başarılı Şekilde Güncellenir / Case 4
+
+# Negatif testler
+Hesap Adı Boş Şekilde Güncellenmeye Çalışılır / Negatif Case / Case 5
+
+# Para transferi
+Başka Hesaba Başarılı Para Transferi Yapılır / Case 6

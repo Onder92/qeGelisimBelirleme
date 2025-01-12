@@ -1,0 +1,7 @@
+# Kritik testler
+allTest.spec
+
+Login Olunduğu Kontrol Edilir
+Ana Sayfadaki Elementlerin Kontrolü Yapılır / Case 2
+Hesaba Kredi Kartı ile Para Yüklenir ve Doğru Miktarın Hesaba Yüklendiği Kontrol Edilir / Case 3
+Başka Hesaba Başarılı Para Transferi Yapılır / Case 6

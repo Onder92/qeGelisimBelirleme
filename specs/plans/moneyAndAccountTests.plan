@@ -1,0 +1,6 @@
+# Para transferi ve hesap işlemleri
+allTest.spec
+
+Hesap Adı Başarılı Şekilde Güncellenir / Case 4
+Hesap Adı Boş Şekilde Güncellennmeye Çalışılır / Negatif Case / Case 5
+Başka Hesaba Başarılı Para Transferi Yapılır / Case 6
