@@ -46,6 +46,7 @@ Hesap Adı Boş Şekilde Güncellennmeye Çalışılır / Negatif Case / Case 5
 * Open Money Transfer butonuna tıklanır.
 * Edit Account butonuna tıklanır.
 * Account name text alanı temizlenir.
+* Update butonunun pasif olduğu kontrol edilir.
 
 Başka Hesaba Başarılı Para Transferi Yapılır / Case 6
 ---------

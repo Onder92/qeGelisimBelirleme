@@ -55,13 +55,13 @@ public class Driver {
         navigateToBaseUrl();
     }
 
-    @AfterScenario
+ /*   @AfterScenario
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();
             driver = null;
         }
-    }
+    }*/
 
     public static WebDriver getDriver() {
         if (driver == null) {

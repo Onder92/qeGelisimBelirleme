@@ -13,5 +13,8 @@ This is a concept file with following syntax for each concept.
 * "editAccountAccountNameUpdateButton" elementine tıkla
 * "2" saniye bekle
 
+# Update butonunun pasif olduğu kontrol edilir.
+* "editAccountAccountNameUpdateInActiveButton" elementinin görünür olduğunu kontrol et
+
 # Account name text alanı temizlenir.
 * "editAccountAccountNameTextField" elementinin değerini temizle

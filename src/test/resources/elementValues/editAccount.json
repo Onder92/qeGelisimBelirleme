@@ -7,8 +7,8 @@
     "type": "xpath",
     "locator": "//div[text()='UPDATE']"
   },
-  "": {
-    "type": "",
-    "locator": ""
+  "editAccountAccountNameUpdateInActiveButton": {
+    "type": "css",
+    "locator": "div[aria-disabled='true'].css-175oi2r.r-1i6wzkk.r-lrvibr.r-1awozwy.r-z2wwpe.r-h3s6tt.r-1777fci.r-tsynxw.r-13qz1uu.r-q0mhf2.r-12vffkv"
   }
 }

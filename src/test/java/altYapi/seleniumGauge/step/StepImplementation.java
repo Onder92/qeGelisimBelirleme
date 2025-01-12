@@ -107,7 +107,6 @@ public class StepImplementation {
     public void checkElementVisibility(String key) {
         WebElement element = findElement(key);
         if (!element.isDisplayed()) {
-            // Ekran görüntüsü alıp Extent'e ekleyelim
             ExtentManager.attachScreenshot(captureScreenshot());
             throw new AssertionError("Element görünür değil: " + key);
         }

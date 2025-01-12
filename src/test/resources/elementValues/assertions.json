@@ -1,0 +1,18 @@
+{
+  "accountNameNewAccNameValue": {
+    "type": "xpath",
+    "locator": "//div[text()='onder.yeni']"
+  },
+  "receiverAccountGetText": {
+    "type": "xpath",
+    "locator": "(//div[@class='css-175oi2r r-1777fci']/select)[2]"
+  },
+  "transactionsLastReceiverAccountExpected": {
+    "type": "xpath",
+    "locator": "(//div[@class='css-146c3p1 r-1ozpqpt r-yv33h5 r-1b43r93 r-6e0ovw'])[1]"
+  },
+  "transactionsLastAmountExpected": {
+    "type": "xpath",
+    "locator": "(//div[@class='css-146c3p1 r-1ozpqpt r-yv33h5 r-1b43r93'])[1]"
+  }
+}
