@@ -1,8 +1,13 @@
 .gauge
 .idea
 logs
-reports
 out
 csvFiles
 target
 extent-report.html
+
+# Proje kök dizinindeki 'reports' klasörünü (Gauge raporları) ignore et
+/reports/
+
+# Ancak 'src/test/java/altYapi/seleniumGauge/reports' klasörünü hariç tut
+!src/test/java/altYapi/seleniumGauge/reports/
