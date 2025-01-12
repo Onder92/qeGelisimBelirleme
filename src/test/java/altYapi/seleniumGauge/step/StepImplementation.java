@@ -1,15 +1,16 @@
 package altYapi.seleniumGauge.step;
 
 import altYapi.seleniumGauge.driver.Driver;
+import altYapi.seleniumGauge.reports.ExtentManager;
 import altYapi.seleniumGauge.utils.JsonUtils;
-import com.thoughtworks.gauge.Step; // Gauge için
-import io.qameta.allure.Attachment; // Allure için
+import com.thoughtworks.gauge.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +25,7 @@ public class StepImplementation {
     private final WebDriver driver = Driver.getDriver();
     private final Map<String, String> storedTexts = new HashMap<>();
 
-    // Element bulma metodu
+    // Tek bir element bulma metodu
     private WebElement findElement(String key) {
         JsonUtils.ElementLocator elementLocator = JsonUtils.getElementLocator(key);
         if (elementLocator == null) {
@@ -72,10 +73,10 @@ public class StepImplementation {
         return driver.findElements(by);
     }
 
-    // Ortak log metodu
+    // Ortak log metodu: Hem console'a hem de Extent raporuna
     private void log(String message) {
-        logger.info(message); // Konsola yaz
-        io.qameta.allure.Allure.step(message); // Allure raporuna yaz
+        logger.info(message);                // Konsola yaz
+        ExtentManager.logInfo(message);      // Extent raporuna yaz
     }
 
     // Bekleme metodu
@@ -106,7 +107,8 @@ public class StepImplementation {
     public void checkElementVisibility(String key) {
         WebElement element = findElement(key);
         if (!element.isDisplayed()) {
-            captureScreenshot();
+            // Ekran görüntüsü alıp Extent'e ekleyelim
+            ExtentManager.attachScreenshot(captureScreenshot());
             throw new AssertionError("Element görünür değil: " + key);
         }
         log("Element görünür: " + key);
@@ -166,7 +168,7 @@ public class StepImplementation {
     public void checkElementExists(String key) {
         List<WebElement> elements = findElements(key);
         if (elements.isEmpty()) {
-            captureScreenshot();
+            ExtentManager.attachScreenshot(captureScreenshot());
             throw new AssertionError("Element mevcut değil: " + key);
         }
         log("Element mevcut: " + key);
@@ -179,11 +181,10 @@ public class StepImplementation {
         String actualText = element.getText();
 
         if (!actualText.equals(expectedText)) {
-            captureScreenshot();
+            ExtentManager.attachScreenshot(captureScreenshot());
             throw new AssertionError("Elementin text değeri beklenenle eşleşmiyor. Beklenen: '"
                     + expectedText + "', Gerçek: '" + actualText + "'");
         }
-
         log("Elementin text değeri beklenenle eşleşiyor: " + expectedText);
     }
 
@@ -204,21 +205,19 @@ public class StepImplementation {
         String storedText = storedTexts.get(identifier);
 
         if (storedText == null) {
-            captureScreenshot();
+            ExtentManager.attachScreenshot(captureScreenshot());
             throw new IllegalArgumentException("Identifier için kaydedilmiş bir text değeri bulunamadı: " + identifier);
         }
 
         if (!actualText.equals(storedText)) {
-            captureScreenshot();
+            ExtentManager.attachScreenshot(captureScreenshot());
             throw new AssertionError("Elementin text değeri kaydedilen text değeri ile eşleşmiyor. Kaydedilen: '"
                     + storedText + "', Gerçek: '" + actualText + "'");
         }
-
         log("Elementin text değeri kaydedilen text değeri ile eşleşiyor. Identifier: " + identifier);
     }
 
-    // Ekran görüntüsü alma
-    @Attachment(value = "Ekran Görüntüsü", type = "image/png")
+    // Ekran görüntüsü alma (ExtentManager.attachScreenshot(...) bu metodu kullanıyor)
     public byte[] captureScreenshot() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }

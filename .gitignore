@@ -5,4 +5,4 @@ reports
 out
 csvFiles
 target
-pom.xml
+extent-report.html

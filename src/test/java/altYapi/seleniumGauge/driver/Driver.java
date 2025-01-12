@@ -1,6 +1,5 @@
 package altYapi.seleniumGauge.driver;
 
-import io.qameta.allure.Step;    // Allure Step annotation
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -19,7 +18,6 @@ public class Driver {
     private static String baseUrl;
 
     @BeforeScenario
-    @Step("Test Başlatılıyor")
     public static void initialize() {
         if (driver != null) {
             return;
@@ -58,7 +56,6 @@ public class Driver {
     }
 
     @AfterScenario
-    @Step("Test Tamamlandı")
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();
