@@ -1,0 +1,23 @@
+Created by onderyerim on 11.01.2025
+
+This is a concept file with following syntax for each concept.
+
+# Reciever Account seçeneklerinden rasgele bir hesap seçilir.
+* "transferMoneyRecieverAccontRandomSelect" elementlerinden rastgele birini seç
+* Rastgele seçilen Reciever Account kaydedilir.
+* "1" saniye bekle
+
+# Rastgele seçilen Reciever Account kaydedilir.
+* "receiverAccountGetText" elementinin text değerini "selectedReceiverAccount" olarak kaydet
+
+# <value> gönderilecek para miktarı girilir.
+* "transferMoneyAmountTextField" elementine <value> değerini yaz
+
+# Send butonu ile para gönderilir.
+* "transferMoneySendButton" elementine tıkla
+
+# Rastgele seçilen Reciever Account ile paranın gönderildiği hesabın aynı olduğu kontrol edilir.
+* "transactionsReceiverAccountExpected" elementinin text değerini kaydedilen "selectedReceiverAccount" text değeri ile karşılaştır
+
+# <value> gönderilen paranın doğru olduğu kontrol edilir.
+* "transactionsLastAmountExpected" elementinin text değeri <value> ile eşit mi kontrol et

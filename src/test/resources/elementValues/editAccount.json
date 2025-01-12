@@ -1,0 +1,14 @@
+{
+  "editAccountAccountNameTextField": {
+    "type": "css",
+    "locator": "input[class='css-11aywtz r-6taxm2 r-1eh6qqt r-z2wwpe r-rs99b7 r-h3s6tt r-1qhn6m8']"
+  },
+  "editAccountAccountNameUpdateButton": {
+    "type": "xpath",
+    "locator": "//div[text()='UPDATE']"
+  },
+  "": {
+    "type": "",
+    "locator": ""
+  }
+}

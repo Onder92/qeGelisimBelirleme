@@ -1,0 +1,14 @@
+{
+  "usernameField": {
+    "type": "css",
+    "locator": "input[placeholder='Username']"
+  },
+  "passwordField": {
+    "type": "css",
+    "locator": "input[placeholder='Password']"
+  },
+  "loginButton": {
+    "type": "css",
+    "locator": "div[class='css-146c3p1 r-jwli3a r-1b43r93']"
+  }
+}

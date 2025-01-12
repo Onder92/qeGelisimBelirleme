@@ -1,0 +1,17 @@
+Created by onderyerim on 11.01.2025
+
+This is a concept file with following syntax for each concept.
+
+# Hesaba, <card number> kredi kartı numarası, <card holder> isim, <date> son kullanma tarihi ve <cvv> kodu ile <amount> para yatırılır.
+* "1" saniye bekle
+* "creditCardCardNumberTextField" elementine <card number> değerini yaz
+* "creditCardCardHolderTextField" elementine <card holder> değerini yaz
+* "creditCardExpiryDateTextField" elementine <date> değerini yaz
+* "creditCardCvvTextField" elementine <cvv> değerini yaz
+* "creditCardAmountTextField" elementine <amount> değerini yaz
+* "2" saniye bekle
+* Add butonuna tıklanır.
+
+# Add butonuna tıklanır.
+* "creditCardAddingMoneyAddButton" elementine tıkla
+ "creditCardAddingMoneyAddButton" elementine javascript ile tıkla

@@ -1,0 +1,9 @@
+Created by onderyerim on 11.01.2025
+
+This is a concept file with following syntax for each concept.
+
+# <username> kullanıcı adı ve <password> şifresi ile login olunur.
+* "usernameField" elementine <username> değerini yaz
+* "passwordField" elementine <password> değerini yaz
+* "loginButton" elementine tıkla
+* "2" saniye bekle

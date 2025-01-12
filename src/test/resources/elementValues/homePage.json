@@ -1,0 +1,22 @@
+{
+  "homePageTableCompanyNameColumn": {
+    "type": "xpath",
+    "locator": "(//span[@class='css-1jxf684 r-b88u0q'])[5]"
+  },
+  "openMoneyTransferButton": {
+    "type": "css",
+    "locator": "div[class='css-146c3p1 r-jwli3a r-1b43r93']"
+  },
+  "addMoneyButton": {
+    "type": "xpath",
+    "locator": "//div[text()='Add money']"
+  },
+  "transferMoneyButton": {
+    "type": "xpath",
+    "locator": "//div[text()='Transfer money']"
+  },
+  "editAccountButton": {
+    "type": "xpath",
+    "locator": "//div[text()='Edit account']"
+  }
+}

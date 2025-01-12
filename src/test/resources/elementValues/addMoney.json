@@ -1,0 +1,26 @@
+{
+  "creditCardCardNumberTextField": {
+    "type": "xpath",
+    "locator": "//div[text()='Card number']/following-sibling::input[1]"
+  },
+  "creditCardCardHolderTextField": {
+    "type": "xpath",
+    "locator": "//div[text()='Card holder']/following-sibling::input[1]"
+  },
+  "creditCardExpiryDateTextField": {
+    "type": "xpath",
+    "locator": "//div[text()='Expiry date']/following-sibling::input[1]"
+  },
+  "creditCardCvvTextField": {
+    "type": "xpath",
+    "locator": "//div[text()='CVV']/following-sibling::input[1]"
+  },
+  "creditCardAmountTextField": {
+    "type": "xpath",
+    "locator": "//div[text()='Amount']/following-sibling::input[1]"
+  },
+  "creditCardAddingMoneyAddButton": {
+    "type": "xpath",
+    "locator": "//div[text()='Add']"
+  }
+}

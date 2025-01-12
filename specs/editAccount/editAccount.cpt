@@ -1,0 +1,17 @@
+Created by onderyerim on 11.01.2025
+
+This is a concept file with following syntax for each concept.
+
+# Hesap adı <value> olarak güncellenir.
+* "editAccountAccountNameTextField" elementine <value> değerini yaz
+* Update butonuna tıklanır.
+
+# Doğru şekilde güncellendiği kontrol edilir.
+* "accountNameNewAccNameValue" elementinin görünür olduğunu kontrol et
+
+# Update butonuna tıklanır.
+* "editAccountAccountNameUpdateButton" elementine tıkla
+* "2" saniye bekle
+
+# Account name text alanı temizlenir.
+* "editAccountAccountNameTextField" elementinin değerini temizle
