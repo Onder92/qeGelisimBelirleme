@@ -1,4 +1,4 @@
-Money Transfer
+All Test
 =====================
 Created by onderyerim on 11.01.2025
 
