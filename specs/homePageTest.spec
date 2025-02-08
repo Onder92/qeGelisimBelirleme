@@ -4,7 +4,12 @@ Created by testinium on 12.01.2025
 
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-     
+
+|  username  |  password  |
+|------------|------------|
+|onder.yerim@testinium.com  |  Onder123|
+
+
 Ana Sayfadaki Elementlerin Kontrolü Yapılır / Case 1
 ---------
 * <username> kullanıcı adı ve <password> şifresi ile login olunur.

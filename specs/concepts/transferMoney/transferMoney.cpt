@@ -15,9 +15,13 @@ This is a concept file with following syntax for each concept.
 
 # Send butonu ile para gönderilir.
 * "transferMoneySendButton" elementine tıkla
+* "3" saniye bekle
 
 # Rastgele seçilen Reciever Account ile paranın gönderildiği hesabın aynı olduğu kontrol edilir.
 * "transactionsReceiverAccountExpected" elementinin text değerini kaydedilen "selectedReceiverAccount" text değeri ile karşılaştır
 
 # <value> gönderilen paranın doğru olduğu kontrol edilir.
 * "transactionsLastAmountExpected" elementinin text değeri <value> ile eşit mi kontrol et
+
+# Hesapta kalan bakiyenin sıfırın altında olmadığı kontrol edilir.
+* "accountAmountGetText" elementinin değerinin 0'dan küçük olmadığını kontrol et

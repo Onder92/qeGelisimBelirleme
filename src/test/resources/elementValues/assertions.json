@@ -14,5 +14,9 @@
   "transactionsLastAmountExpected": {
     "type": "xpath",
     "locator": "(//div[@class='css-146c3p1 r-1ozpqpt r-yv33h5 r-1b43r93'])[1]"
+  },
+  "accountAmountGetText": {
+    "type": "xpath",
+    "locator": "(//div[@class='css-175oi2r'])[9]/div[2]"
   }
 }

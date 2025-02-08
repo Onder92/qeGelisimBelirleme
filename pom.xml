@@ -9,22 +9,22 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <!-- Derleme ayarları -->
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <!-- Java 23 için derleme ayarları -->
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
 
-        <!-- Gauge -->
+        <!-- Güncellenmiş Gauge sürümü -->
         <gauge.version>0.8.1</gauge.version>
 
-        <!-- Selenium 3.x -->
-        <selenium.version>3.141.59</selenium.version>
+        <!-- Selenium 4.x -->
+        <selenium.version>4.16.1</selenium.version>
 
-        <!-- SLF4J + Logback -->
-        <slf4j.version>1.7.36</slf4j.version>
-        <logback.version>1.2.11</logback.version>
+        <!-- Güncellenmiş SLF4J + Logback -->
+        <slf4j.version>2.0.9</slf4j.version>
+        <logback.version>1.4.14</logback.version>
 
-        <!-- Extent Reports (core) versiyonu -->
-        <extentreports.version>4.1.6</extentreports.version>
+        <!-- Extent Reports (5.x, Selenium 4 ile uyumlu) -->
+        <extentreports.version>5.1.1</extentreports.version>
     </properties>
 
     <dependencies>
@@ -35,14 +35,21 @@
             <version>${gauge.version}</version>
         </dependency>
 
-        <!-- Selenium -->
+        <!-- Selenium 4 -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
         </dependency>
 
-        <!-- SLF4J + Logback -->
+        <!-- WebDriverManager (Sürücüleri otomatik yönetmek için) -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.6.2</version>
+        </dependency>
+
+        <!-- SLF4J + Logback (Güncel sürümler) -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -54,14 +61,14 @@
             <version>${logback.version}</version>
         </dependency>
 
-        <!-- Jackson databind (JsonUtils’de kullanılıyor) -->
+        <!-- Jackson databind (JsonUtils için) -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.15.2</version>
+            <version>2.16.0</version>
         </dependency>
 
-        <!-- ExtentReports (Core) 4.1.6 -->
+        <!-- ExtentReports (5.x, Selenium 4 uyumlu) -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
@@ -71,18 +78,18 @@
 
     <build>
         <plugins>
-            <!-- Maven Compiler Plugin -->
+            <!-- Maven Compiler Plugin (Java 23 uyumlu) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.11.0</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>23</source>
+                    <target>23</target>
                 </configuration>
             </plugin>
 
-            <!-- Gauge Maven Plugin (opsiyonel) -->
+            <!-- Gauge Maven Plugin -->
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>

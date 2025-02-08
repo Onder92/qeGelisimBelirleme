@@ -2,7 +2,7 @@ package altYapi.seleniumGauge.reports;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ExtentManager {
 
@@ -11,9 +11,9 @@ public class ExtentManager {
 
     public static ExtentReports getExtentReports() {
         if (extent == null) {
-            ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-report.html");
+            ExtentSparkReporter sparkReporter = new ExtentSparkReporter("test-output/extent-report.html");
             extent = new ExtentReports();
-            extent.attachReporter(htmlReporter);
+            extent.attachReporter(sparkReporter);
 
             extent.setSystemInfo("Env", "Local");
             extent.setSystemInfo("Browser", "Chrome");
@@ -32,22 +32,25 @@ public class ExtentManager {
         }
     }
 
-    public static void attachScreenshot(byte[] screenshot) {
-        if (currentTest != null && screenshot != null) {
-            String base64 = java.util.Base64.getEncoder().encodeToString(screenshot);
-            currentTest.addScreenCaptureFromBase64String(base64, "Screenshot");
-        }
-    }
-
     public static void setTestStatusFail(String details) {
         if (currentTest != null) {
-            currentTest.fail(details);
+            currentTest.fail(details);  // Artık detaylı hata mesajı rapora eklenecek
+        }
+    }
+    public static void attachScreenshot(String base64Screenshot) {
+        if (currentTest != null && base64Screenshot != null) {
+            System.out.println("DEBUG: Ekran görüntüsü rapora ekleniyor...");
+            currentTest.addScreenCaptureFromBase64String(base64Screenshot, "Ekran Görüntüsü");
+        } else {
+            System.out.println("DEBUG: Ekran görüntüsü rapora eklenemedi!");
         }
     }
 
     public static void flushReports() {
         if (extent != null) {
+            System.out.println("DEBUG: Rapor güncelleniyor...");
             extent.flush();
         }
     }
+
 }

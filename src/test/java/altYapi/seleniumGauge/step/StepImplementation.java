@@ -81,13 +81,29 @@ public class StepImplementation {
             throw e;
         }
     }
+    private String getStackTrace(Exception e) {
+        StringBuilder sb = new StringBuilder();
+        for (StackTraceElement element : e.getStackTrace()) {
+            sb.append(element.toString()).append("\n");
+        }
+        return sb.toString();
+    }
 
-    // Log ve hata yakalama metodu
     private void logAndFail(String message, Exception e) {
-        logger.error(message, e);
-        ExtentManager.logInfo(message);
-        ExtentManager.setTestStatusFail(e.getMessage());
-        ExtentManager.attachScreenshot(captureScreenshot());
+        logger.error(message, e); // IntelliJ loglarına yazdır
+
+        // Hata mesajı ve stack trace bilgisini al
+        String errorMessage = "❌ Hata: " + message + "<br><pre>" + getStackTrace(e) + "</pre>";
+
+        // Hata detaylarını test raporuna ekle
+        ExtentManager.logInfo(errorMessage);
+        ExtentManager.setTestStatusFail(errorMessage);
+
+        // Ekran görüntüsünü al ve rapora ekle
+        String screenshot = captureScreenshot();
+        if (screenshot != null) {
+            ExtentManager.attachScreenshot(screenshot);
+        }
     }
 
     // Ortak log metodu
@@ -287,13 +303,42 @@ public class StepImplementation {
         }
     }
 
-    // Ekran görüntüsü alma (ExtentManager.attachScreenshot(...) bu metodu kullanıyor)
-    public byte[] captureScreenshot() {
+    // Bakiye kontrolü
+    @Step("<key> elementinin değerinin 0'dan küçük olmadığını kontrol et")
+    public void checkBalanceIsNotNegative(String key) {
         try {
-            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            WebElement balanceElement = findElement(key);
+            String balanceText = balanceElement.getText().replaceAll("[^0-9.-]", ""); // Sayısal olmayan karakterleri temizle
+
+            if (balanceText.isEmpty()) {
+                throw new IllegalArgumentException("Bakiye değeri okunamadı. Element: " + key);
+            }
+
+            double balance = Double.parseDouble(balanceText);
+            if (balance < 0) {
+                throw new AssertionError("Bakiye 0'dan küçük! Mevcut bakiye: " + balance);
+            }
+
+            log("Bakiye doğrulandı: " + balance + " (0'dan küçük değil)");
         } catch (Exception e) {
-            logAndFail("Ekran görüntüsü alma başarısız.", e);
+            logAndFail("Bakiye kontrolü başarısız: " + key, e);
+            throw e;
+        }
+    }
+
+    // Ekran görüntüsü alma (ExtentManager.attachScreenshot(...) bu metodu kullanıyor)
+    public String captureScreenshot() {
+        try {
+            TakesScreenshot ts = (TakesScreenshot) driver;
+            String base64Screenshot = ts.getScreenshotAs(OutputType.BASE64);
+
+            // Debug mesajı
+            System.out.println("DEBUG: Ekran görüntüsü başarıyla alındı!");
+            return base64Screenshot;
+        } catch (Exception e) {
+            System.out.println("DEBUG: Ekran görüntüsü alma başarısız! " + e.getMessage());
             return null;
         }
     }
+
 }

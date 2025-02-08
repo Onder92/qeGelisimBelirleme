@@ -58,3 +58,12 @@ Başka Hesaba Başarılı Para Transferi Yapılır / Case 6
 * Send butonu ile para gönderilir.
 * Rastgele seçilen Reciever Account ile paranın gönderildiği hesabın aynı olduğu kontrol edilir.
 * "1000" gönderilen paranın doğru olduğu kontrol edilir.
+
+Hesap Bakiyesinin Sıfırın Altına Düşmediği Kontrol Edilir / Case 7
+---------
+* <username> kullanıcı adı ve <password> şifresi ile login olunur.
+* Open Money Transfer butonuna tıklanır.
+* Transfer Money butonuna tıklanır.
+* "999999999" gönderilecek para miktarı girilir.
+* Send butonu ile para gönderilir.
+* Hesapta kalan bakiyenin sıfırın altında olmadığı kontrol edilir.
